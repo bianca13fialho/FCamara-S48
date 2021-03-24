@@ -24,7 +24,7 @@
             <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Nome do Aluno" required><br>
 
             <br><label for="email"> Digite seu Email: </label><br>
-            <input type="email" name="email" placeholder="Digite seu Email"><br>
+            <input type="text" class="text" name="email" placeholder="Digite seu Email"><br>
 
             <br><label for="cidade"> Selecione sua Cidade: </label><br>
             <input list="cidade" />
@@ -51,72 +51,76 @@
             </datalist><br>
 
             <br><label for="nomeEscola"> Qual o nome da sua escola: </label><br>
-            <input type="nomeEscola" name="nomeEscola" placeholder="Nome da Escola"><br>
+            <input type="text" class="text1" id="nomecompleto" name="nomeEscola" placeholder="Nome da Escola"><br>
 
             <br><label for="enderecoEscola"> Digite a rua da sua escola: </label><br>
-            <input type="enderecoEscola" name="enderecoEscola" placeholder="Endereço da Escola"><br>
+            <input type="text" class="text" name="enderecoEscola" placeholder="Endereço da Escola"><br>
 
-            <br><label for="cepEscola"> Digite o CEP da sua escola: </label><br>
-            <input type="cepEscola" name="cepEscola" placeholder="CEP da Escola"><br>
+            <br><label for="cepEscola"> CEP da sua escola: </label><br>
+            <input type="text" class="cepEscola" placeholder="CEP da Escola"><br>
 
-            <Br><label for="matriculaEscola"> Digite seu número de matrícula: </label><br>
-            <input type="matriculaEscola" name="matriculaEscola" placeholder="Número de matrícula da Escola"><br>
+            <div class="matriculaEscola">
+                <Br><label for="matriculaEscola"> Seu número de matrícula: </label><br>
+                <input type="text"  name="matriculaEscola" placeholder="Número de matrícula"><br>
+            </div>
 
-            <Br><label for="lista"> Preencha sua Lista:</label><br>
+            <div id="listaNecessidade">
+                <Br><label for="lista"> Preencha sua Lista:</label><br>
 
-            <input type="checkbox" id="estojo" name="estojo" value="estojo">
-            <label for="estojo"> Estojo </label><br>
+                <input type="checkbox" id="estojo" name="estojo" value="estojo">
+                <label for="estojo"> Estojo </label><br>
 
-            <input type="checkbox" id="lapis12cores" name="lapis12cores" value="lapis12cores">
-            <label for="lapis12cores"> Lápis de Cor - 12 Cores </label><br>
+                <input type="checkbox" id="lapis12cores" name="lapis12cores" value="lapis12cores">
+                <label for="lapis12cores"> Lápis de Cor - 12 Cores </label><br>
 
-            <input type="checkbox" id="lapis24cores" name="lapis24cores" value="lapis24cores">
-            <label for="lapis24cores"> Lápis de Cor - 24 Cores </label><br>
+                <input type="checkbox" id="lapis24cores" name="lapis24cores" value="lapis24cores">
+                <label for="lapis24cores"> Lápis de Cor - 24 Cores </label><br>
 
-            <input type="checkbox" id="CanetaAP" name="CanetaAP" value="CanetaAP">
-            <label for="CanetaAP"> Caneta Esferográfica Azul ou Preta </label><br>
+                <input type="checkbox" id="CanetaAP" name="CanetaAP" value="CanetaAP">
+                <label for="CanetaAP"> Caneta Esferográfica Azul ou Preta </label><br>
 
-            <input type="checkbox" id="CanetaV" name="CanetaV" value="CanetaV">
-            <label for="CanetaV"> Caneta Esferográfica Vermelha </label><br>
+                <input type="checkbox" id="CanetaV" name="CanetaV" value="CanetaV">
+                <label for="CanetaV"> Caneta Esferográfica Vermelha </label><br>
 
-            <input type="checkbox" id="LapisP" name="LapisP" value="LapisP">
-            <label for="LapisP"> Lápis Preto </label><br>
+                <input type="checkbox" id="LapisP" name="LapisP" value="LapisP">
+                <label for="LapisP"> Lápis Preto </label><br>
 
-            <input type="checkbox" id="cola" name="cola" value="cola">
-            <label for="cola"> Cola Líquida </label><br>
+                <input type="checkbox" id="cola" name="cola" value="cola">
+                <label for="cola"> Cola Líquida </label><br>
 
-            <input type="checkbox" id="tesoura" name="tesoura" value="tesoura">
-            <label for="tesoura"> Tesoura sem Ponta </label><br>
+                <input type="checkbox" id="tesoura" name="tesoura" value="tesoura">
+                <label for="tesoura"> Tesoura sem Ponta </label><br>
 
-            <input type="checkbox" id="colabastao" name="colabastao" value="colabastao">
-            <label for="colabastao"> Cola Bastão </label><br>
+                <input type="checkbox" id="colabastao" name="colabastao" value="colabastao">
+                <label for="colabastao"> Cola Bastão </label><br>
 
-            <input type="checkbox" id="borracha" name="borracha" value="borracha">
-            <label for="borracha"> Borracha </label><br>
+                <input type="checkbox" id="borracha" name="borracha" value="borracha">
+                <label for="borracha"> Borracha </label><br>
 
-            <input type="checkbox" id="Apontador" name="Apontador" value="apontador">
-            <label for="Apontador"> Apontador </label><br>
+                <input type="checkbox" id="Apontador" name="Apontador" value="apontador">
+                <label for="Apontador"> Apontador </label><br>
 
-            <input type="checkbox" id="regua" name="regua" value="regua">
-            <label for="regua"> Régua</label><br>
+                <input type="checkbox" id="regua" name="regua" value="regua">
+                <label for="regua"> Régua</label><br>
 
-            <input type="checkbox" id="caderno" name="caderno" value="caderno">
-            <label for="caderno"> Caderno Universitário </label><br>
+                <input type="checkbox" id="caderno" name="caderno" value="caderno">
+                <label for="caderno"> Caderno Universitário </label><br>
 
-            <input type="checkbox" id="cadernoMaterias" name="cadernoMaterias" value="cadernoMaterias">
-            <label for="cadernoMaterias"> Caderno de 20 Matérias </label><br>
+                <input type="checkbox" id="cadernoMaterias" name="cadernoMaterias" value="cadernoMaterias">
+                <label for="cadernoMaterias"> Caderno de 20 Matérias </label><br>
 
-            <input type="checkbox" id="mochila" name="mochila" value="mochila">
-            <label for="mochila"> Mochila Escolar </label><br>
+                <input type="checkbox" id="mochila" name="mochila" value="mochila">
+                <label for="mochila"> Mochila Escolar </label><br>
 
-            <input type="checkbox" id="alcool" name="alcool" value="alcool">
-            <label for="alcool"> Álcool em Gel </label><br>
+                <input type="checkbox" id="alcool" name="alcool" value="alcool">
+                <label for="alcool"> Álcool em Gel </label><br>
 
-            <input type="checkbox" id="agenda" name="agenda" value="agenda">
-            <label for="agenda"> Agenda </label><br><br>
+                <input type="checkbox" id="agenda" name="agenda" value="agenda">
+                <label for="agenda"> Agenda </label><br><br>
 
-            <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
-            <input type="text" id="outro" name="outro" placeholder="Escreva aqui"><br><br>
+                <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
+                <input type="text" id="outro" name="outro" placeholder="Escreva aqui"><br><br>
+            </div>
 
             <input type="submit" value="Enviar">
             <input type="submit" value="Limpar">
