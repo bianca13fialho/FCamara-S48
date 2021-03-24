@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastrelista.css">
     <title>Cadastre Sua Lista</title>
 </head>
 
 <body>
-    <form action = "x.php" method="post" autocomplete="on">
+    <div id='formCadastro'>
+        <form action = "x.php" method="post" autocomplete="on">
         <label for="nomecompleto"> Nome Completo</label>
         <br>
         <input type="text" id="nomecompleto" name="nomecompleto" required>
@@ -42,6 +44,18 @@
             <input type="checkbox" id="lista12" name="lista12" value="CanetaV">
             <label for="lista12"> Caneta Esferográfica Vermelha </label>
             <br> 
+            <input type="checkbox" id="lista13" name="lista13" value="LapisP">
+            <label for="lista13"> Lápis Preto </label>
+            <br> 
+            <input type="checkbox" id="lista14" name="lista14" value="colal">
+            <label for="lista14"> Cola Líquida </label>
+            <br> 
+            <input type="checkbox" id="lista15" name="lista15" value="tesoura">
+            <label for="lista15"> Tesoura sem Ponta </label>
+            <br> 
+            <input type="checkbox" id="lista15" name="lista15" value="colab">
+            <label for="lista15"> Cola Bastão </label>
+            <br> 
             <input type="checkbox" id="lista8" name="lista8" value="borracha">
             <label for="lista8"> Borracha </label>
             <br> 
@@ -74,7 +88,7 @@
         <p> O que você precisa não consta na lista? Adicione Abaixo: </p>
         <br>
          <label for="outro"> Outro:</label>
-         <input type="text" id="outro" name="outro">
+         <input type="text" id="outro" name="outro"> <button type=button onclick="addForm()">Acrescentar</button>
          <button type="button" onclick= Acrescentar()>+</button>
          <div id="mais">
 
@@ -85,9 +99,13 @@
          <input type="submit" value="Enviar">
         
         </form>
+    </div>
 
     
         <script>
+            function addForm() {
+               
+            }
             function Acrescentar() {
                 document.getElementById("mais").innerHTML += `<label for="outro"> Outro:</label> <input type="text" id="outro" name="outro"><br>`}
 
