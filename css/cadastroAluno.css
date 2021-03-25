@@ -22,7 +22,13 @@
     position: relative;
     margin-top: 1%;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
+}
+
+.outro {
+    width: 350px;
+    height: 60px;
 }

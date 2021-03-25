@@ -26,6 +26,12 @@
             <br><label for="email"> Digite seu Email: </label><br>
             <input type="text" class="text" name="email" placeholder="Digite seu Email"><br>
 
+            <br><label for="username">Usuário de Login:</label><br>
+            <input type="text" id="username" name="username" placeholder="Usuário"><br>
+
+            <br><label for="pwd">Senha:</label><br>
+            <input type="password" id="pwd" name="pwd" placeholder="Senha"><br>
+
             <br><label for="cidade"> Selecione sua Cidade: </label><br>
             <input list="cidade" />
             <datalist id="cidade">
@@ -121,11 +127,11 @@
                 <label for="agenda"> Agenda </label><br><br>
 
                 <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
-                <input type="text" id="outro" name="outro" placeholder="Escreva aqui"><br><br>
+                <input type="text" class="outro" name="outro" ><br><br>
             </div>
 
             <input type="submit" value="Enviar">
-            <input type="submit" value="Limpar">
+            <input type="reset" value="Limpar">
 
         </form>
     </div>
