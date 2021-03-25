@@ -1,0 +1,24 @@
+#formCadastro {
+    position: relative;
+    width: 25%;
+    margin-left: 1%;
+}
+
+.text {
+    width: 50%;
+}
+
+#nomecompleto {
+    width: 90%;
+}
+
+.matriculaEscola {
+    position: absolute;
+    left: 49%;
+    top: 41.6%;
+}
+
+#listaNecessidade {
+    position: relative;
+    margin-top: 1%;
+}
