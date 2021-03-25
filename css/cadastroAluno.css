@@ -1,6 +1,6 @@
 #formCadastro {
     position: relative;
-    width: 25%;
+    width: 40%;
     margin-left: 1%;
 }
 
@@ -9,20 +9,19 @@
 }
 
 #nomecompleto {
-    width: 90%;
+    width: 50%;
 }
 
-.matriculaEscola {
-    position: absolute;
-    left: 49%;
-    top: 41.6%;
-}
-
-#listaNecessidade {
-    position: relative;
-    margin-top: 1%;
-}
 .flex-container {
     display: flex;
     flex-direction: row;
+}
+
+.matricula {
+    margin-left: 3%;
+}
+
+.outro {
+    width: 350px;
+    height: 60px;
 }

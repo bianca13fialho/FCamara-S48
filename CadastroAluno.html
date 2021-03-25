@@ -26,6 +26,15 @@
             <br><label for="email"> Digite seu Email: </label><br>
             <input type="text" class="text" name="email" placeholder="Digite seu Email"><br>
 
+            <br><label for="tel">Telefone do responsável:</label><br> 
+            <input type="tel" name="tel" placeholder="(11) xxxxx-xxxx"><Br>
+
+            <br><label for="username">Usuário de Login:</label><br>
+            <input type="text" id="username" name="username" placeholder="Usuário"><br>
+
+            <br><label for="pwd">Senha:</label><br>
+            <input type="password" id="pwd" name="pwd" placeholder="Senha"><br>
+
             <br><label for="cidade"> Selecione sua Cidade: </label><br>
             <input list="cidade" />
             <datalist id="cidade">
@@ -58,10 +67,10 @@
                 <br>
             <div class="flex-container">    
                 <div>
-                    <br><label for="cepEscola"> CEP da sua escola: </label>
-                    <input type="text" class="cepEscola" placeholder="CEP da Escola"><br>
+                    <br><label for="cepEscola"> CEP da sua escola: </label><br>
+                    <input type="text" name="cep" size="5" maxlength="5" placeholder="xxxxx"> - <input type="text" name="cep2" size="3" maxlength="3" placeholder="xxx">
                 </div>
-                <div>
+                <div class="matricula">
                     <br><label for="matriculaEscola"> Seu número de matrícula: </label><br>
                     <input type="text"  name="matriculaEscola" placeholder="Número de matrícula"><br>
                 </div>
@@ -121,11 +130,11 @@
                 <label for="agenda"> Agenda </label><br><br>
 
                 <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
-                <input type="text" id="outro" name="outro" placeholder="Escreva aqui"><br><br>
+                <textarea rows="5" cols="50" placeholder="Escreva Aqui..."></textarea><br><br>
             </div>
 
             <input type="submit" value="Enviar">
-            <input type="submit" value="Limpar">
+            <input type="reset" value="Limpar">
 
         </form>
     </div>
