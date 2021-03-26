@@ -29,6 +29,31 @@
             <h4> Cadastre sua Lista de Materiais</h4>
         </a>
 
+        <button id="BtnCadastro">Cadastre-se</button>
+        <div id="modalCadastro" class="modalCadastro">
+
+            <div class="modal-conteudo">
+                <span class="close">&times;</span>
+                <center>
+                    <h1>CADASTRO DE USUÁRIO</h1>
+                </center>
+                <form>
+                    <label for="username">Nome de Usuário:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Seu nome de login"><br>
+                    <br><label for="pwd">Senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br>
+                    <br><label for="pwd">Repita sua Senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br>
+                    <br><label for="email">Email:</label>
+                    <br><input type="email" id="email" name="email" placeholder="Coloque seu Email">
+                </form><br>
+
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </div>
+
 
         </main>
         <br>
@@ -41,6 +66,23 @@
             </div>
         </footer>
 
+        <script>
+            var modal = document.getElementById("modalCadastro");
+            var btn = document.getElementById("BtnCadastro");
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
 
 </body>
 
