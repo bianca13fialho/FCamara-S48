@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,35 +12,78 @@
 
 <body>
     <header>
-        <h1>Projeto FCAMARA  - Squad48</h1>
+        <h1>Projeto FCAMARA - Squad48</h1>
         <h3>
             Uma Ponte Entre Quem Quer Ajudar e Quem Precisa de Ajuda
         </h3>
     </header>
-<nav>
-    <ul>
-        <li><a href="CadastroAluno.html" >Aluno - Cadastre-se</a></li>
-        <li><a href="Doe.html">Seja um Doador</a></li>
-        <li><a href="About.html">Sobre Nós </a></li>
-    </ul>
-</nav>
-    <main>
-       <p> Ajude um aluno à iniciar as aulas com os materiais escolares que precisa. Contribuia com uma doação e patrocine um aluno!</p> 
-       <h4> Cadastre-se e <a href="Doe.html">Seja um doador </a></h4> 
-       <p> Aluno que precisam de ajuda, cadastre sua lista de materiais abaixo para que um doador o encontre</p>
-       <a href="CadastroAluno.html"><h4> Cadastre sua Lista de Materiais</h4></a>
-        
 
-    </main>
-    <br>
-    <br>
+    <ma in>
+        <p> Ajude um aluno à iniciar as aulas com os ma teriis escolares que precisa. Contribuia com uma doação e patrocine um aluno!</p>
+        <a href="">
+            <h4>Cadastre-se e seja u m doador</h4>
+        </a>
+        </a>
+        <p> Aluno que precisam de ajuda, cadastre sua lista de materiais abaixo para que um doador o encontre</p>
+        <a href="CadastroAluno.html">
+            <h4> Cadastre sua Lista de Materiais</h4>
+        </a>
 
-    <footer class="flex-container">
-        <div class="centro">  
-            Projeto FCamara - Squad 48 | 2021 
+        <button id="BtnCadastro">Cadastre-se</button>
+        <div id="modalCadastro" class="modalCadastro">
+
+            <div class="modal-conteudo">
+                <span class="close">&times;</span>
+                <center>
+                    <h1>CADASTRO DE USUÁRIO</h1>
+                </center>
+                <form>
+                    <label for="username">Nome de Usuário:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Seu nome de login"><br>
+                    <br><label for="pwd">Senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br>
+                    <br><label for="pwd">Repita sua Senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br>
+                    <br><label for="email">Email:</label>
+                    <br><input type="email" id="email" name="email" placeholder="Coloque seu Email">
+                </form><br>
+
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </div>
+
         </div>
-    </footer>
 
+
+        </main>
+        <br>
+        <br>
+
+        <footer class="flex-container">
+            <div class="centro">
+
+                Projeto FCamara - Squad 48 | 2021
+            </div>
+        </footer>
+
+        <script>
+            var modal = document.getElementById("modalCadastro");
+            var btn = document.getElementById("BtnCadastro");
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
 
 </body>
+
 </html>
