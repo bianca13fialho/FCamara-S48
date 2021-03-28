@@ -56,3 +56,18 @@
     position: absolute;
     width: 20px;
 }
+
+#formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+.formLogin {
+    position: relative;
+    left: 10%;
+}
+
+.formCadastro {
+    position: relative;
+    left: 35%;
+}
