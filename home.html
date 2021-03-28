@@ -19,17 +19,9 @@
     </header>
 
     <main>
-        <p> Ajude um aluno da rede de ensino pública a iniciar as aulas com os materiais escolares que precisa. Contribua com uma doação e patrocine um aluno!</p>
-        <a href="CadastroDoador.html">
-            <h4>Cadastre-se e seja um doador!</h4>
-        </a>
-        <a href="FazerLogin.html">
-            <h4>Já tenho cadastro como doador. Fazer login!</h4>
-        </a>
-        <p> Alunos que precisam de ajuda, cadastre sua lista de materiais abaixo para que um doador o encontre</p>
-        <a href="CadastroAluno.html">
-            <h4> Cadastre sua Lista de Materiais</h4>
-        </a>
+        <p>Site feito com o propósito de ajudar e conectar alunos com necessidades para com pessoas que podem ajudar os mesmos, doando materiais escolares novos e/ou em ótimo estado.</p>
+        <a href="About.html">Entenda mais sobre nosso projeto, seu propósito, e quem somos nós!</a><br>
+        <p>Ajude um aluno da rede de ensino pública a iniciar as aulas com os materiais escolares que precisa. Contribua com uma doação e patrocine um aluno!</p>
 
         <button id="BtnCadastro">Cadastre-se</button>
         <div id="modalCadastro" class="modalCadastro">
@@ -39,52 +31,94 @@
                 <center>
                     <h1>CADASTRO DE USUÁRIO</h1>
                 </center>
-                <form>
-                    <label for="username">Nome de Usuário:</label><br>
-                    <input type="text" id="username" name="username" placeholder="Seu nome de login"><br>
-                    <br><label for="pwd">Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
-                    <br><label for="pwd">Repita sua Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
-                    <br><label for="email">Email:</label>
-                    <br><input type="email" id="email" name="email" placeholder="Coloque seu Email">
-                </form><br>
+                <div id="formulario">
 
-                <input type="submit" value="Cadastrar">
-                <input type="reset" value="Limpar">
+                    <div class="formLogin">
+                        <form>
+                            <label for="username">Nome de Usuário:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
+                            <br><label for="pwd">Senha:</label><br>
+                            <input type="password" id="pass" name="senha" placeholder="Sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
+
+                            <br><input type="submit" value="Login">
+                            <input type="reset" value="Limpar">
+                        </form><br>
+                    </div>
+
+                    <div class="formCadastro">
+                        <form>
+                            <label for="username">Nome de Usuário:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
+                            <br><label for="email">Email:</label>
+                            <br><input type="email" id="email" name="email" placeholder="Coloque seu Email"><br>
+                            <br><label for="pwd">Senha:</label><br>
+                            <input type="password" id="pass" name="senha" placeholder="Sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
+                            <br><label for="pwd">Repita sua Senha:</label><br>
+                            <input type="password" id="pass2" name="senha" placeholder="Repita sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho2"><br>
+
+                            <br><input type="submit" value="Cadastrar">
+                            <input type="reset" value="Limpar">
+                        </form><br>
+
+                    </div>
+                </div>
             </div>
 
         </div>
 
 
-        </main>
-        <br>
-        <br>
+    </main>
+    <br>
+    <br>
 
-        <footer class="flex-container">
-            <div class="centro">
+    <footer class="flex-container">
+        <div class="centro">
 
-                Projeto FCamara - Squad 48 | 2021
-            </div>
-        </footer>
+            Projeto FCamara - Squad 48 | 2021
+        </div>
+    </footer>
 
-        <script>
-            var modal = document.getElementById("modalCadastro");
-            var btn = document.getElementById("BtnCadastro");
-            var span = document.getElementsByClassName("close")[0];
+    <script>
+        var modal = document.getElementById("modalCadastro");
+        var btn = document.getElementById("BtnCadastro");
+        var span = document.getElementsByClassName("close")[0];
 
-            btn.onclick = function() {
-                modal.style.display = "block";
-            }
-            span.onclick = function() {
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+
+        document.getElementById('olho').addEventListener('mousedown', function() {
+            document.getElementById('pass').type = 'text';
+        });
+        document.getElementById('olho').addEventListener('mouseup', function() {
+            document.getElementById('pass').type = 'password';
+        });
+        document.getElementById('olho').addEventListener('mousemove', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+
+
+        document.getElementById('olho2').addEventListener('mousedown', function() {
+            document.getElementById('pass2').type = 'text';
+        });
+        document.getElementById('olho2').addEventListener('mouseup', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+        document.getElementById('olho2').addEventListener('mousemove', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+    </script>
 
 </body>
 
