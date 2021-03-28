@@ -41,13 +41,16 @@
                 </center>
                 <form>
                     <label for="username">Nome de Usuário:</label><br>
-                    <input type="text" id="username" name="username" placeholder="Seu nome de login"><br>
+                    <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
                     <br><label for="pwd">Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
+                    <input type="password" id="pass" name="senha" placeholder="Sua Senha">
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
                     <br><label for="pwd">Repita sua Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
+                    <input type="password" id="pass2" name="senha" placeholder="Repita sua Senha">
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho2"><br>
                     <br><label for="email">Email:</label>
                     <br><input type="email" id="email" name="email" placeholder="Coloque seu Email">
+
                 </form><br>
 
                 <input type="submit" value="Cadastrar">
@@ -57,34 +60,59 @@
         </div>
 
 
-        </main>
-        <br>
-        <br>
+    </main>
+    <br>
+    <br>
 
-        <footer class="flex-container">
-            <div class="centro">
+    <footer class="flex-container">
+        <div class="centro">
 
-                Projeto FCamara - Squad 48 | 2021
-            </div>
-        </footer>
+            Projeto FCamara - Squad 48 | 2021
+        </div>
+    </footer>
 
-        <script>
-            var modal = document.getElementById("modalCadastro");
-            var btn = document.getElementById("BtnCadastro");
-            var span = document.getElementsByClassName("close")[0];
+    <script>
+        var modal = document.getElementById("modalCadastro");
+        var btn = document.getElementById("BtnCadastro");
+        var span = document.getElementsByClassName("close")[0];
 
-            btn.onclick = function() {
-                modal.style.display = "block";
-            }
-            span.onclick = function() {
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+
+        document.getElementById('olho').addEventListener('mousedown', function() {
+            document.getElementById('pass').type = 'text';
+        });
+
+        document.getElementById('olho').addEventListener('mouseup', function() {
+            document.getElementById('pass').type = 'password';
+        });
+
+        // Para que o password não fique exposto apos mover a imagem.
+        document.getElementById('olho').addEventListener('mousemove', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+        document.getElementById('olho2').addEventListener('mousedown', function() {
+            document.getElementById('pass2').type = 'text';
+        });
+
+        document.getElementById('olho2').addEventListener('mouseup', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+
+        // Para que o password não fique exposto apos mover a imagem.
+        document.getElementById('olho2').addEventListener('mousemove', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+    </script>
 
 </body>
 
