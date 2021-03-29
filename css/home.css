@@ -57,6 +57,12 @@
     width: 20px;
 }
 
+.olho3 {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+}
+
 #formulario {
     display: flex;
     flex-direction: row;
@@ -65,9 +71,11 @@
 .formLogin {
     position: relative;
     left: 10%;
+    width: 40%;
+    border-right: 1px solid black;
 }
 
 .formCadastro {
     position: relative;
-    left: 35%;
+    left: 25%;
 }
