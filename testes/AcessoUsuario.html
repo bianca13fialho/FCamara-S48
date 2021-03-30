@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/acessoUsuario.css">
+    <title>Acesso de Usuário</title>
+</head>
+
+<body>
+    <div id="cadastro">
+        <a href="CadastroAluno.html"><button id="BtnCadastroAluno">Cadastro Aluno</button></a><br>
+
+        <br><button id="BtnCadastroDoador">Cadastro doador</button>
+        <div id="modalCadastroDoador" style="height: fit-content;" class="modalCadastroDoador">
+
+            <div class="modal-conteudo">
+                <span class="close">&times;</span>
+                <center>
+                    <h1>CADASTRO DE DOADOR</h1>
+                </center>
+
+                <form action="x.php" method="post" autocomplete="on">
+                    <label for="nomecompleto"> Nome Completo: </label><br>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Insira seu nome completo" required/><br>
+                    <br><label for="endereco"> Endereço: </label><br>
+                    <input type="text" name="endereco" size="25" placeholder="Insira seu endereço residencial" required/><br>
+                    <br><input type="submit" name="cadastrarDoador" value="Cadastrar Doador">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var modal = document.getElementById("modalCadastroDoador");
+        var btn = document.getElementById("BtnCadastroDoador");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

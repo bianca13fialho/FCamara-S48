@@ -1,0 +1,56 @@
+#formCadastro {
+    position: relative;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type='email'], input[type='text'], input[type='tel']{
+    height: 28px;
+    border: 1px solid #aaa;
+    width: 200px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.text {
+    width: 50%;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+select{
+    width: 200px;
+
+}
+
+#nomecompleto {
+    width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.matricula {
+    margin-left: 3%;
+}
+
+.outro {
+    width: 350px;
+    height: 60px;
+}
