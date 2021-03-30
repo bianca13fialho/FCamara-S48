@@ -1,15 +1,18 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .cards {
     height: 47vh;
     /*margin-left: auto;*/
     border-radius: 16px 16px 16px 16px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
     background-color:#D3D3D3;
-    margin: 1.5%;
     box-sizing: border-box;
 }
 
 .row {
-    margin: 1%;
+    /*margin: 1%;*/
 }
 
 .avatar {
