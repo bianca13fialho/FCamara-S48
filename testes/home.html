@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Projeto FCamara Squad48</title>
+</head>
+
+<body>
+    <header>
+        <h1>Projeto FCAMARA - Squad48</h1>
+        <h3>
+            Uma Ponte Entre Quem Quer Ajudar e Quem Precisa de Ajuda
+        </h3>
+    </header>
+
+    <main>
+        <p>Site feito com o propósito de ajudar e conectar alunos com necessidades para com pessoas que podem ajudar os mesmos, doando materiais escolares novos e/ou em ótimo estado.</p>
+        <a href="sobreNos.html">Entenda mais sobre nosso projeto, seu propósito, e quem somos nós!</a><br>
+        <p>Ajude um aluno da rede de ensino pública a iniciar as aulas com os materiais escolares que precisa. Contribua com uma doação e patrocine um aluno!</p>
+
+        <button id="BtnCadastro">Entrar</button>
+        <button onclick="window.location.href='AcessoUsuario.html'">Acesso</button>
+        <div id="modalCadastro" class="modalCadastro">
+
+            <div class="modal-conteudo" style="height: fit-content;">
+                <span class="close">&times;</span>
+                <center>
+                    <h1>CADASTRO DE USUÁRIO</h1>
+                </center>
+                <div id="formulario">
+
+                    <div class="formLogin">
+                        <form>
+                            <label for="username">Nome de Usuário:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
+                            <br><label for="pwd">Senha:</label><br>
+                            <input type="password" id="pass3" name="senha" placeholder="Sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho3" class="olho3"><br>
+
+                            <br><input type="submit" value="Login">
+                            <input type="reset" value="Limpar">
+                        </form><br>
+                    </div>
+
+                    <div class="formCadastro">
+                        <form>
+                            <label for="username">Nome de Usuário:</label><br>
+                            <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
+                            <br><label for="email">Email:</label>
+                            <br><input type="email" id="email" name="email" placeholder="Coloque seu Email"><br>
+                            <br><label for="pwd">Senha:</label><br>
+                            <input type="password" id="pass" name="senha" placeholder="Sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
+                            <br><label for="pwd">Repita sua Senha:</label><br>
+                            <input type="password" id="pass2" name="senha" placeholder="Confirme sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho2"><br>
+
+                            <br><input type="submit" value="Cadastrar">
+                            
+                            <input type="reset" value="Limpar">
+                        </form><br>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+    <br>
+    <br>
+
+    <footer class="flex-container">
+        <div class="centro">
+
+            Projeto FCamara - Squad 48 | 2021
+        </div>
+    </footer>
+
+    <script>
+        var modal = document.getElementById("modalCadastro");
+        var btn = document.getElementById("BtnCadastro");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        document.getElementById('olho').addEventListener('mousedown', function() {
+            document.getElementById('pass').type = 'text';
+        });
+        document.getElementById('olho').addEventListener('mouseup', function() {
+            document.getElementById('pass').type = 'password';
+        });
+        document.getElementById('olho').addEventListener('mousemove', function() {
+            document.getElementById('pass').type = 'password';
+        });
+
+
+        document.getElementById('olho2').addEventListener('mousedown', function() {
+            document.getElementById('pass2').type = 'text';
+        });
+        document.getElementById('olho2').addEventListener('mouseup', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+        document.getElementById('olho2').addEventListener('mousemove', function() {
+            document.getElementById('pass2').type = 'password';
+        });
+
+        document.getElementById('olho3').addEventListener('mousedown', function() {
+            document.getElementById('pass3').type = 'text';
+        });
+        document.getElementById('olho3').addEventListener('mouseup', function() {
+            document.getElementById('pass3').type = 'password';
+        });
+        document.getElementById('olho3').addEventListener('mousemove', function() {
+            document.getElementById('pass3').type = 'password';
+        });
+    </script>
+
+</body>
+
+</html>

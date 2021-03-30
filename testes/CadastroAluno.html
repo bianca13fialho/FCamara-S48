@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastroAluno.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js">
+        </script>
+        <script src="js/script.js"></script>
+        <title>Cadastre Sua Lista</title>
+</head>
+
+<body>
+    <div id='formCadastro'>
+        <form action="x.php" method="post" autocomplete="on">
+
+
+            <label for="nomecompleto"> Nome do Pai Completo:</label><br>
+            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Ex.: Pedro Lopes Carvalho"
+                required><br>
+
+            <br><label for="nomecompleto"> Nome da Mãe Completo:</label><br>
+            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Ex.: Joana Oliveira Silva"
+                required><br>
+
+            <br><label for="nomecompleto"> Nome do(a) Aluno(a) Completo:</label><br>
+            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Ex.: Maria Silva Carvalho"
+                required><br>
+
+            <br><label for="tel">Telefone do responsável:</label><br>
+            <input type="tel" name="tel" onkeypress="$(this).mask('(00) 00000-0000')"
+                placeholder="Ex.: (00) 99999-7777"><Br>
+            <br>
+            <label for="estado"> Estado </label>
+            <br>
+            <select name="estado" class="estado" id="estado" required>
+                <option value="" selected></option>
+            </select>
+            <br>
+            <br>
+            <label for="cidade"> Cidade </label>
+            <br>
+
+            <select name="cidade" class="cidade" id="cidade" required disabled>
+                <option value="" selected></option>
+
+            </select>
+            <br>
+            <br><label for="nomeEscola"> Qual o nome da sua escola: </label><br>
+            <input type="text" class="text1" id="nomecompleto" name="nomeEscola"
+                placeholder="Ex.: Escola Girassol Ipiranga"><br>
+
+
+
+            <div class="flex-container">
+                <div>
+                    <br><label for="cepEscola"> CEP da sua escola: </label><br>
+                    <input type="text" class="cep" name="cep" size="8" maxlength="8" onkeypress="$(this).mask('00.000-000')"
+                        placeholder="Ex.:00000-000" />
+
+                    <br>
+
+                    <br><label for="enderecoEscola"> Digite a rua da sua escola: </label><br>
+                    <input type="text" class="text" value="" id="enderecoEscola" placeholder="Ex.: Rua São Joaquim"><br>
+                    <br>
+                    <label for="matriculaEscola">Seu número de matrícula:</label><br>
+                    <input type="text" name="matriculaEscola" placeholder="Ex.: 19872209888-10" />
+                </div>
+            </div>
+            <div id="listaNecessidade">
+                <br><label for="lista">
+                    <h3>Preencha sua Lista:</h3>
+                </label>
+                <div id="materiais"></div>
+                <br>
+                <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
+                <textarea rows="5" cols="50" placeholder="Escreva Aqui..."></textarea><br><br>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </form>
+    </div>
+</body>
+
+</html>
