@@ -23,7 +23,7 @@
         <a href="About.html">Entenda mais sobre nosso projeto, seu propósito, e quem somos nós!</a><br>
         <p>Ajude um aluno da rede de ensino pública a iniciar as aulas com os materiais escolares que precisa. Contribua com uma doação e patrocine um aluno!</p>
 
-        <button id="BtnCadastro">Cadastre-se</button>
+        <button id="BtnCadastro">Entrar</button>
         <div id="modalCadastro" class="modalCadastro">
 
             <div class="modal-conteudo">
@@ -38,8 +38,8 @@
                             <label for="username">Nome de Usuário:</label><br>
                             <input type="text" id="username" name="username" placeholder="Seu nome de Login"><br>
                             <br><label for="pwd">Senha:</label><br>
-                            <input type="password" id="pass" name="senha" placeholder="Sua Senha">
-                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
+                            <input type="password" id="pass3" name="senha" placeholder="Sua Senha">
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho3" class="olho3"><br>
 
                             <br><input type="submit" value="Login">
                             <input type="reset" value="Limpar">
@@ -56,7 +56,7 @@
                             <input type="password" id="pass" name="senha" placeholder="Sua Senha">
                             <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
                             <br><label for="pwd">Repita sua Senha:</label><br>
-                            <input type="password" id="pass2" name="senha" placeholder="Repita sua Senha">
+                            <input type="password" id="pass2" name="senha" placeholder="Confirme sua Senha">
                             <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho2"><br>
 
                             <br><input type="submit" value="Cadastrar">
@@ -105,7 +105,7 @@
             document.getElementById('pass').type = 'password';
         });
         document.getElementById('olho').addEventListener('mousemove', function() {
-            document.getElementById('pass2').type = 'password';
+            document.getElementById('pass').type = 'password';
         });
 
 
@@ -117,6 +117,16 @@
         });
         document.getElementById('olho2').addEventListener('mousemove', function() {
             document.getElementById('pass2').type = 'password';
+        });
+
+        document.getElementById('olho3').addEventListener('mousedown', function() {
+            document.getElementById('pass3').type = 'text';
+        });
+        document.getElementById('olho3').addEventListener('mouseup', function() {
+            document.getElementById('pass3').type = 'password';
+        });
+        document.getElementById('olho3').addEventListener('mousemove', function() {
+            document.getElementById('pass3').type = 'password';
         });
     </script>
 
