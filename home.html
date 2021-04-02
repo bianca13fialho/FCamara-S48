@@ -8,20 +8,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <title>Projeto FCamara Squad48</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Projeto FCAMARA - Squad48</h1>
-        <h3>
-            Uma Ponte Entre Quem Quer Ajudar e Quem Precisa de Ajuda
-        </h3>
+        <nav >
+            <div class="flex-container">
+                <div class="flex-container">
+                    <div>
+                        <img src="imgs/Logo 1.png" id="logo">
+                    </div>
+                    <div class="home">
+                        <a href="home.html" >Home</a>
+                        <hr id="barrahome">
+                    </div>    
+                </div>
+                <div class="sobrenos">
+                    <a href="sobrenós.html">Sobre nós</a>
+                </div>
+                <div class="flex-container" class="espacoentre">
+                    <div id="login">
+                        <a href="#">Login</a>
+                    </div>
+                    <div id="registro">
+                        <a href="#">Registro</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            <div id="bloco">
+                <div class="apresenta">
+                    <h1>
+                        Seja a diferença na vida de um estudante
+                    </h1>
+                    <p>A Ponte de Lápis ajuda alunos de ensino público e doadores a se aproximarem através da vontade de fazer bem ao próximo.</p>
+                    <img src="imgs/Landing.png">
+                    <div class="flex-container espacoentre">
+                        <a href="#" id="doador" class="botaopadrao">Sou doador</a>
+                        <a href="#" id="aluno" class="botaopadrao">Sou aluno</a>
+                    </div>
+                </div>
+            </div>
     </header>
 
     <main>
-        <p>Site feito com o propósito de ajudar e conectar alunos com necessidades para com pessoas que podem ajudar os mesmos, doando materiais escolares novos e/ou em ótimo estado.</p>
-        <a href="About.html">Entenda mais sobre nosso projeto, seu propósito, e quem somos nós!</a><br>
-        <p>Ajude um aluno da rede de ensino pública a iniciar as aulas com os materiais escolares que precisa. Contribua com uma doação e patrocine um aluno!</p>
+        <p id="conheca">Conheça o que você pode fazer no site!</p>
+        <div class="divrelativa">
+            <hr id="regua">
+                <img src="imgs/arrow_back_ios.png">
+        </div>
 
         <button id="BtnCadastro">Entrar</button>
         <div id="modalCadastro" class="modalCadastro">
@@ -74,7 +112,7 @@
     <br>
     <br>
 
-    <footer class="flex-container">
+    <footer class="flex-container" class="footer">
         <div class="centro">
 
             Projeto FCamara - Squad 48 | 2021
