@@ -6,19 +6,18 @@ body {
     overflow-x: hidden;
 }
 
-.flex-container1 {
+.flex-container {
     display: flex;
     flex-direction: row;
+    ;
 }
 
 .between {
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .espacoentre {
     justify-content: space-evenly;
-    width: 120px;
-    margin-top: 50px;
 }
 
 .home {
@@ -35,24 +34,23 @@ body {
     line-height: 30.48px;
     text-align: center;
     margin: auto;
-    margin-top: 31px;
-    margin-left: 402px;
 }
 
 #barrahome {
     background-color: #2C4BED;
     border-radius: 20px;
-    width: 127px;
+    width: 79px;
     height: 6px;
+    margin-top: 7px;
 }
 
 #login {
     font-size: 18px;
     display: block;
-    height: 50px;
-    width: 155px;
+    height: 22px;
+    width: 126px;
     left: 0px;
-    top: 15px;
+    top: 13px;
     border-radius: 5px;
     color: #4450E4;
     border: 1px solid #4450E4;
@@ -67,10 +65,10 @@ body {
 #registro {
     font-size: 18px;
     display: block;
-    height: 50px;
-    width: 155px;
+    height: 22px;
+    width: 126px;
     left: 0px;
-    top: 15px;
+    top: 13px;
     border-radius: 5px;
     color: white;
     border: 1px solid #4450E4;
@@ -96,46 +94,65 @@ nav a {
     height: 88px;
 }
 
-html {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-header h1 {
-    margin-top: 50px;
-}
-
-.cards {
-    height: 47vh;
-    /*margin-left: auto;*/
-    border-radius: 16px 16px 16px 16px;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
-    background-color: #D3D3D3;
-    box-sizing: border-box;
-}
-
-.row {
-    /*margin: 1%;*/
-}
-
-.avatar {
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-div p {
-    margin-top: 2%;
-    /*background-color:#C0C0C0;*/
+.botaopadrao {
     display: block;
-    padding: 2%;
-    width: 70%;
+    border-radius: 60px;
     text-align: center;
+    text-decoration: none;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 72px;
+    width: 267px;
+}
+
+#cadastroUsuario {
+    margin-top: 48px;
+    display: block;
+    color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 70px;
+    background-color: #4450E4;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.img img {
+    width: 1500px;
+    height: 950px;
+}
+
+.cadastro {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+
+.cadastro label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.cadastro input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cadastro img {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -35px;
+    width: 20px;
+    height: 20px;
 }
