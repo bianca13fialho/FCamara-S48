@@ -22,8 +22,14 @@ body {
     line-height: 30.48px;
     text-align: center;
     margin: auto;
-    margin-top: 30px;
+    
     margin-left: 21px;
+}
+.sobrenos a:hover {
+    border-bottom: 6px solid #2C4BED;
+    border-radius: 5px;
+    margin-bottom: 7px;
+
 }
 .sobrenos {
     font-size: 25px;
@@ -31,14 +37,19 @@ body {
     text-align: center;
     margin: auto;
 }
-
+.home a:hover {
+    margin-top: 7px;
+    border-bottom: 6px solid #2C4BED;
+    border-radius: 5px;
+}
+/*
 #barrahome{
     background-color: #2C4BED;
     border-radius: 20px;
     width: 79px;
     height: 6px;
     margin-top: 7px;
-}
+}*/
 
 #login {
     font-size: 18px;
