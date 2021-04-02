@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Projeto FCamara Squad48</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="flex-container">
+            <div class="flex-container">
+                <div>
+                    <img src="imgs/Logo 1.png" id="logo">
+                </div>
+                <div class="home">
+                    <a href="home.html">Home</a>
+                    <hr id="barrahome">
+                </div>
+            </div>
+            <div class="sobrenos">
+                <a href="sobrenós.html">Sobre nós</a>
+            </div>
+            <div class="flex-container" class="espacoentre">
+                <div id="login">
+                    <a href="#">Login</a>
+                </div>
+                <div id="registro">
+                    <a href="#">Registro</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="img">
+            <img src="/imgs/cadastro.png">
+        </div>
+        <div class="cadastro">
+            <label for="username">Nome de Usuário:</label><br>
+            <input type="text" id="username" name="username" placeholder="Seu nome de Login" required><br>
+            <br><label for="email">Email:</label>
+            <br><input type="email" id="email" name="email" placeholder="Coloque seu Email" required><br>
+            <br><label for="pwd">Senha:</label><br>
+            <input type="password" id="pass" name="senha" placeholder="Sua Senha" required>
+            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
+            <br><label for="pwd">Repita sua Senha:</label><br>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('olho').addEventListener('mousedown', function() {
+            document.getElementById('pass').type = 'text';
+        });
+        document.getElementById('olho').addEventListener('mouseup', function() {
+            document.getElementById('pass').type = 'password';
+        });
+        document.getElementById('olho').addEventListener('mousemove', function() {
+            document.getElementById('pass').type = 'password';
+        });
+    </script>
+
+</body>
+
+</html>
