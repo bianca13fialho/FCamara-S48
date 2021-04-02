@@ -2,6 +2,8 @@ body {
     margin-left: 85px;
     margin-right: 85px;
     margin-top: 28px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .flex-container {
@@ -90,6 +92,7 @@ nav a {
 .apresenta {
     width: 643px;
     margin-top: 168px;
+    
 }
 .apresenta h1 {
     font-family: 'Montserrat', sans-serif;
@@ -105,6 +108,22 @@ nav a {
     color: #2C2C2C;
     margin-top: 48px;
     width: 520px;
+    
+}
+
+#bloco {
+    /*position: relative;
+    background-image: url('../imgs/Landing.png');
+    background-repeat: no-repeat;*/
+}
+
+#bloco img {
+    position: absolute;
+    width: 671px;
+    height: 455px;
+    left: 684px;
+    top: 227px;
+
 }
 
 .modalCadastro {
