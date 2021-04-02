@@ -107,6 +107,8 @@ nav a {
 #logo {
     width: 301px;
     height: 88px;
+    position: relative;
+    bottom: 10px;
 }
 
 .apresenta {
