@@ -1,5 +1,5 @@
 body {
-    margin-left: 85px;
+    
     margin-right: 85px;
     margin-top: 28px;
     max-width: 100%;
@@ -95,6 +95,7 @@ body {
 }
 
 nav {
+    
     font-family: 'Montserrat', sans-serif;
     color: #2C2C2C, 100%;
 }
@@ -105,6 +106,7 @@ nav a {
 }
 
 #logo {
+    margin-left: 85px;
     width: 301px;
     height: 88px;
     position: relative;
@@ -112,6 +114,7 @@ nav a {
 }
 
 .apresenta {
+    margin-left: 119px;
     width: 643px;
     margin-top: 168px;
 }
@@ -187,6 +190,7 @@ nav a {
     text-align: center;
     color: #2C2C2C;
     margin-top: 144px;
+    margin-left: auto;
 }
 
 .divrelativa {
@@ -194,6 +198,7 @@ nav a {
 }
 
 #regua {
+    margin-left: 85px;
     border: 1px solid #2C2C2C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
@@ -210,18 +215,23 @@ nav a {
 .centrado {
     
 }
+.margemfix {
+    margin-left: 185px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
 .artigoh {
-    margin: auto;
+    
+    
     margin-top: 54px;
     height: 168px;
     width: 1072px;
-    align-items: center;
-    justify-content: center;
-  
  }
 
  .artigoh h1 {
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 62px;
     font-weight: 700;
@@ -233,7 +243,9 @@ nav a {
  .artigop {
     height: 78px;
     width: 858px;
-    margin: auto;
+    
+    
+    
  }
 
  .artigop p {
@@ -245,9 +257,11 @@ nav a {
     letter-spacing: 0em;
     text-align: center;
     margin-top: 0%;
+   
     
  }
  .intrucao {
+     margin-left: 148px;
      margin-top: 103px;
      
  }
@@ -268,6 +282,20 @@ nav a {
      margin:auto;
      display: block;
  }
+
+.slider {
+    height: 748px;
+    width: 1440px;
+    background-color: #5E68EB;
+    margin-left: ;
+}
+
+
+
+
+
+
+
 .modalCadastro {
     display: none;
     position: fixed;
