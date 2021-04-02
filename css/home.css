@@ -249,12 +249,24 @@ nav a {
  }
  .intrucao {
      margin-top: 103px;
+     
  }
-
+ .passo {
+     width: 300px;
+     align-items: center;
+     justify-content: center;
+  
+ }
  .passo p {
      text-align: center;
      margin-top: 64px;
-
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     line-height: 25px;
+ }
+ .passo img {
+     margin:auto;
+     display: block;
  }
 .modalCadastro {
     display: none;
