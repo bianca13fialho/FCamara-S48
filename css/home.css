@@ -189,8 +189,10 @@ nav a {
     line-height: 25px;
     text-align: center;
     color: #2C2C2C;
+    
+    margin: auto;
     margin-top: 144px;
-    margin-left: auto;
+    margin-left: 85px;
 }
 
 .divrelativa {
@@ -216,11 +218,12 @@ nav a {
     
 }
 .margemfix {
-    margin-left: 185px;
+    margin: auto;
+    margin-left: 85px;
+   
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 .artigoh {
     
@@ -287,7 +290,21 @@ nav a {
     height: 748px;
     width: 1440px;
     background-color: #5E68EB;
-    margin-left: ;
+    margin-left: 0%;
+    margin-top: 154px;
+}
+.slider h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+   
+
+
 }
 
 
