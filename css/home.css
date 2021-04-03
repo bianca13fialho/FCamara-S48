@@ -358,8 +358,8 @@ h4 {
 }
 
 .home3 {
-    margin-top: 150px;
-    margin-left: 150px;
+    margin-top: 132px;
+    margin-left: 83px;
     height: 700px;
 }
 
@@ -368,7 +368,8 @@ h4 {
     font-style: normal;
     font-weight: bold;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 62px;
+    color: #2C2C2C;
 }
 
 .content-home3 {
@@ -377,39 +378,51 @@ h4 {
 }
 
 .content-home3 p {
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 20px;
-    margin-top: 100px;
-    width: 600px;
+    font-size: 24px;
+    margin-top: 55px;
+    width: 735px;
+    line-height: 36px;
+    color: #2C2C2C;
 }
 
 .fundoschool {
+    
     position: absolute;
-    margin-left: -300px;
+    margin-left: -320px;
     z-index: -5;
+    
+    
 }
 
 .school {
+    
     position: relative;
-    margin-left: 150px;
+    margin-left: -10px;
+    margin-right: 47px;
 }
 
 .rodape {
     height: 200px;
+    width: 100%;
     background-color: rgb(36, 34, 34);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .logorodape {
-    margin: 45px;
-    width: 450px;
-    height: 100px;
+    margin-left: 101px;
+    align-self: center;
+    /*width: 450px;
+    height: 100px;*/
+    
 }
 
 .icons {
-    margin-left: 650px;
+    
     padding: 80px;
 }
 
