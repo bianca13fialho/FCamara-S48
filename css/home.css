@@ -309,6 +309,19 @@ nav a {
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+ h4 {
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0px;
 
 }
 
@@ -326,21 +339,24 @@ nav a {
 }
 
 .botaomini {
-    display: block;
+    display: inline-block;
     border-radius: 60px;
     text-align: center;
     text-decoration: none;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 37px;
+    height: 40px;
     width: 139px;
-}
-#doar {
-    /*margin-top: 48px;*/
     background-color: #4450E4;
     color: #F4F4F4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 70px;
+    font-size: 17px;
+    line-height: 35px;
+    justify-content: center;
+    
+}
+
+.botaomini p {
+    margin-top: 0px;
 }
