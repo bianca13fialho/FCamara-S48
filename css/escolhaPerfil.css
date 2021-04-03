@@ -114,65 +114,86 @@ nav a {
     bottom: 10px;
 }
 
-.botaopadrao {
+.btn {
+    width: 450px;
+    margin-top: 100px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.doador {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 100px;
+    background-color: #4450E4;
+    border-radius: 5px;
+}
+
+.doador p {
+    padding-left: 140px;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.doador img {
+    padding-top: 12px;
+    padding-left: 120px;
+    width: 90px;
+    height: 80px;
+}
+
+.aluno {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 100px;
+    background-color: #FF813E;
+    border-radius: 5px;
+}
+
+.aluno p {
+    padding-left: 55px;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aluno img {
+    padding-top: 12px;
+    padding-left: 40px;
+    width: 85px;
+    height: 80px;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.voltar {
     display: block;
     border-radius: 60px;
+    border: 1px solid #4450E4;
     text-align: center;
     text-decoration: none;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 72px;
-    width: 280px;
-}
-
-#cadastroUsuario {
-    margin-top: 48px;
-    display: block;
-    color: #F4F4F4;
+    width: 267px;
+    margin-top: 100px;
+    background-color: #fff;
+    color: #4450E4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 70px;
-    background-color: #4450E4;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-}
-
-.img img {
-    width: 1500px;
-    height: 840px;
-}
-
-.cadastro {
-    position: absolute;
-    margin-left: 1000px;
-    margin-top: 100px;
-}
-
-.cadastro label {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 70px;
-}
-
-.cadastro input {
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.cadastro img {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -35px;
-    width: 20px;
-    height: 20px;
 }

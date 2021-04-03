@@ -320,7 +320,19 @@
     max-height: 120px;
   }
 
+<<<<<<< HEAD
   .container .flex-container {
+=======
+@media only screen and (max-width: 600px) {
+    .cards {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.container .flex-container {
+>>>>>>> debb8365a5b15d90a04daa55055dc00bbff4a8fd
     display: flex;
     justify-content: center;
     align-items: center;

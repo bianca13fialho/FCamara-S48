@@ -61,7 +61,6 @@ body {
     margin-top: 7px;
 }*/
 
-
 #login {
     font-size: 18px;
     display: block;
@@ -79,6 +78,7 @@ body {
     padding: 13px;
     margin-right: 41px;
 }
+
 #registro {
     font-size: 18px;
     display: block;
@@ -287,21 +287,23 @@ nav a {
 }
 
 .azul {
-    
     width: 100%;
     height: 748px;
     background-color: #5E68EB;
     margin-right: 0px;
     margin-left: 0px;
 }
+
 .boxes {
     margin-top: 130px;
 }
+
 .alunos {
-    width: 328px;
-    height: 328px;
+    padding-top: 20px;
+    width: 350px;
+    height: 340px;
     border-radius: 20px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -312,7 +314,8 @@ nav a {
     flex-direction: column;
     align-items: center;
 }
- h4 {
+
+h4 {
     margin-top: 8px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -322,7 +325,6 @@ nav a {
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 0px;
-
 }
 
 .azul h1 {
@@ -335,7 +337,6 @@ nav a {
     letter-spacing: 0em;
     text-align: center;
     padding-top: 91px;
-
 }
 
 .botaomini {
@@ -351,12 +352,88 @@ nav a {
     color: #F4F4F4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 35px;
     justify-content: center;
+}
+
+.home3 {
+    margin-top: 132px;
+    margin-left: 83px;
+    height: 700px;
+}
+
+.home3 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 62px;
+    color: #2C2C2C;
+}
+
+.content-home3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-home3 p {
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 55px;
+    width: 735px;
+    line-height: 36px;
+    color: #2C2C2C;
+}
+
+.fundoschool {
+    
+    position: absolute;
+    margin-left: -320px;
+    z-index: -5;
+    
     
 }
 
-.botaomini p {
-    margin-top: 0px;
+.school {
+    
+    position: relative;
+    margin-left: -10px;
+    margin-right: 47px;
+}
+
+.rodape {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logorodape {
+    margin-left: 101px;
+    align-self: center;
+    /*width: 450px;
+    height: 100px;*/
+    
+}
+
+.icons {
+    ;
+    padding: 80px;
+}
+
+.logoTwitter {
+    margin-left: 30px;
+}
+
+.logoInstagram {
+    margin-left: 30px;
+}
+
+.logoFace {
+    margin-left: 30px;
 }
