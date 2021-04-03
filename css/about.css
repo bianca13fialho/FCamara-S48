@@ -1,123 +1,10 @@
-body {
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 28px;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-.flex-container1 {
-    display: flex;
-    flex-direction: row;
-}
-
-.between {
-    justify-content: space-between;
-}
-
-.espacoentre {
-    justify-content: space-evenly;
-    width: 120px;
-    margin-top: 50px;
-}
-
-.home {
-    font-size: 25px;
-    line-height: 30.48px;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    margin-left: 21px;
-}
-
-.sobrenos {
-    font-size: 25px;
-    line-height: 30.48px;
-    text-align: center;
-    margin: auto;
-    margin-top: 31px;
-    margin-left: 402px;
-}
-
-#barrahome {
-    background-color: #2C4BED;
-    border-radius: 20px;
-    width: 127px;
-    height: 6px;
-}
-
-#login {
-    font-size: 18px;
-    display: block;
-    height: 50px;
-    width: 155px;
-    left: 0px;
-    top: 15px;
-    border-radius: 5px;
-    color: #4450E4;
-    border: 1px solid #4450E4;
-    background-color: white;
-    font-weight: 700;
-    text-align: center;
-    margin: auto;
-    padding: 13px;
-    margin-right: 41px;
-}
-
-#registro {
-    font-size: 18px;
-    display: block;
-    height: 50px;
-    width: 155px;
-    left: 0px;
-    top: 15px;
-    border-radius: 5px;
-    color: white;
-    border: 1px solid #4450E4;
-    background-color: #4450E4;
-    font-weight: 700;
-    text-align: center;
-    margin: auto;
-    padding: 13px;
-}
-
-nav {
-    font-family: 'Montserrat', sans-serif;
-    color: #2C2C2C, 100%;
-}
-
-nav a {
-    color: inherit;
-    text-decoration: none;
-}
-
-#logo {
-    width: 301px;
-    height: 88px;
-    position: relative;
-    bottom: 10px;
-}
-
-html {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-header h1 {
-    margin-top: 50px;
-}
-
 .cards {
-    height: 47vh;
+    height: 30vh;
     /*margin-left: auto;*/
     border-radius: 16px 16px 16px 16px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
     background-color: #D3D3D3;
     box-sizing: border-box;
-}
-
-.row {
-    /*margin: 1%;*/
 }
 
 .avatar {
@@ -126,7 +13,7 @@ header h1 {
     width: 120px;
 }
 
-.flex-container {
+.container .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,8 +21,11 @@ header h1 {
 }
 
 div p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+    color: #2C2C2C;
     margin-top: 2%;
-    /*background-color:#C0C0C0;*/
     display: block;
     padding: 2%;
     width: 70%;
