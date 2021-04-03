@@ -8,40 +8,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <title>Projeto FCamara Squad48</title>
-    
+
     <!--<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/lightslider.min.css">-->
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav >
-            <div class="flex-container">
+        <div class="home1">
+            <nav>
                 <div class="flex-container">
-                    <div>
-                        <img src="imgs/Logo 1.png" id="logo">
+                    <div class="flex-container">
+                        <div>
+                            <img src="imgs/Logo 1.png" id="logo">
+                        </div>
+                        <div class="home">
+                            <a href="home.html">Home</a>
+
+                        </div>
                     </div>
-                    <div class="home">
-                        <a href="home.html" >Home</a>
-                        
-                    </div>    
-                </div>
-                <div class="sobrenos">
-                    <a href="sobrenós.html">Sobre nós</a>
-                </div>
-                <div class="flex-container" class="espacoentre">
-                    <div id="login">
-                        <a href="#">Login</a>
+                    <div class="sobrenos">
+                        <a href="sobrenós.html">Sobre nós</a>
                     </div>
-                    <div id="registro">
-                        <a href="#">Cadastro</a>
+                    <div class="flex-container" class="espacoentre">
+                        <div id="login">
+                            <a href="#">Login</a>
+                        </div>
+                        <div id="registro">
+                            <a href="#">Cadastro</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
             <div id="bloco">
                 <div class="apresenta">
                     <h1>
@@ -55,86 +56,90 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
 
+
+
+    <p id="conheca">Conheça o que você pode fazer no site!</p>
+    <div class="divrelativa">
+        <hr id="regua">
+        <a href="#home2"><img src="imgs/arrow_back_ios.png"></a>
+    </div>
     <main>
-        <p id="conheca">Conheça o que você pode fazer no site!</p>
-        <div class="divrelativa">
-            <hr id="regua">
-                <img src="imgs/arrow_back_ios.png">
+        <div id="home2">
+            <article>
+                <div class='margemfix flex-container'>
+                    <div class='artigoh'>
+                        <h1> Doações transparentes</h1>
+                    </div>
+                    <div class='artigop'>
+                        <p>Aqui te mostramos tudo que você deseja saber sobre a doação, desde o momento que começou o processo até o recebimento ao aluno.</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="flex-container between intrucao">
+                        <div class="passo">
+                            <img src="imgs/Caixa.png">
+                            <p>Faça doações <strong>dentro da nossa</strong> plataforma de maneira segura e rápida.</p>
+                        </div>
+                        <div class="passo">
+                            <img src="imgs/Group.png" ">
+                            <p><strong>Receba doações</strong> em seu colégio com um clique de distância! Sejam livros, cadernos lápis, etc.</p>
+                        </div>
+                        <div class="passo ">
+                            <img src="imgs/Criança.png ">
+                            <p>Mude a vida de <strong>vários alunos</strong> por todo o Brasil.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </div>
-
-        <article>
-            <div class='margemfix flex-container'>
-                <div class='artigoh'>
-                    <h1> Doações transparentes</h1>
-                </div>
-                <div class='artigop'>
-                    <p>Aqui te mostramos tudo que você deseja saber sobre a doação, desde o momento que começou o processo até o recebimento ao aluno.</p>
-                </div>
-            </div>
-
-            <div class="">
-                <div class="flex-container between intrucao">
-                    <div class="passo">
-                        <img src="imgs/Caixa.png">
-                        <p>Faça doações <strong>dentro da nossa</strong> plataforma de maneira segura e rápida.</p>
-                    </div>
-                    <div class="passo">
-                        <img src="imgs/Group.png"">
-                        <p><strong>Receba doações</strong> em seu colégio com um clique de distância! Sejam livros, cadernos lápis, etc.</p>
-                    </div>
-                    <div class="passo">
-                        <img src="imgs/Criança.png">
-                        <p>Mude a vida de <strong>vários alunos</strong> por todo o Brasil.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <div class="slider">
+        <div class="slider ">
             <h1>Resultado das doações</h1>
 
 
         </div>
 
-        <button id="BtnCadastro">Entrar</button>
-        <div id="modalCadastro" class="modalCadastro">
+        <button id="BtnCadastro ">Entrar</button>
+        <div id="modalCadastro " class="modalCadastro ">
 
-            <div class="modal-conteudo">
-                <span class="close">&times;</span>
+            <div class="modal-conteudo ">
+                <span class="close ">&times;</span>
                 <center>
                     <h1>CADASTRO DE USUÁRIO</h1>
                 </center>
-                <div id="formulario">
+                <div id="formulario ">
 
-                    <div class="formLogin">
+                    <div class="formLogin ">
                         <form>
-                            <label for="username">Nome de Usuário:</label><br>
-                            <input type="text" id="username" name="username" placeholder="Seu nome de Login" required><br>
-                            <br><label for="pwd">Senha:</label><br>
-                            <input type="password" id="pass3" name="senha" placeholder="Sua Senha" required>
-                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho3" class="olho3"><br>
+                            <label for="username ">Nome de Usuário:</label><br>
+                            <input type="text " id="username " name="username " placeholder="Seu nome de Login " required><br>
+                            <br><label for="pwd ">Senha:</label><br>
+                            <input type="password " id="pass3 " name="senha " placeholder="Sua Senha " required>
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png " id="olho3 " class="olho3 "><br>
 
-                            <br><input type="submit" value="Login">
-                            <input type="reset" value="Limpar">
+                            <br><input type="submit " value="Login ">
+                            <input type="reset " value="Limpar ">
                         </form><br>
                     </div>
 
-                    <div class="formCadastro">
+                    <div class="formCadastro ">
                         <form>
-                            <label for="username">Nome de Usuário:</label><br>
-                            <input type="text" id="username" name="username" placeholder="Seu nome de Login" required><br>
-                            <br><label for="email">Email:</label>
-                            <br><input type="email" id="email" name="email" placeholder="Coloque seu Email" required><br>
-                            <br><label for="pwd">Senha:</label><br>
-                            <input type="password" id="pass" name="senha" placeholder="Sua Senha" required>
-                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho"><br>
-                            <br><label for="pwd">Repita sua Senha:</label><br>
-                            <input type="password" id="pass2" name="senha" placeholder="Confirme sua Senha" required>
-                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho2"><br>
+                            <label for="username ">Nome de Usuário:</label><br>
+                            <input type="text " id="username " name="username " placeholder="Seu nome de Login " required><br>
+                            <br><label for="email ">Email:</label>
+                            <br><input type="email " id="email " name="email " placeholder="Coloque seu Email " required><br>
+                            <br><label for="pwd ">Senha:</label><br>
+                            <input type="password " id="pass " name="senha " placeholder="Sua Senha " required>
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png " id="olho " class="olho "><br>
+                            <br><label for="pwd ">Repita sua Senha:</label><br>
+                            <input type="password " id="pass2 " name="senha " placeholder="Confirme sua Senha " required>
+                            <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png " id="olho2 " class="olho2 "><br>
 
-                            <br><input type="submit" value="Cadastrar">
-                            <input type="reset" value="Limpar">
+                            <br><input type="submit " value="Cadastrar ">
+                            <input type="reset " value="Limpar ">
                         </form><br>
 
                     </div>
@@ -148,27 +153,27 @@
     <br>
     <br>
 
-    <footer class="flex-container" class="footer">
-        <div class="centro">
+    <footer class="flex-container " class="footer ">
+        <div class="centro ">
 
             Projeto FCamara - Squad 48 | 2021
         </div>
     </footer>
 
     <script>
-        var modal = document.getElementById("modalCadastro");
-        var btn = document.getElementById("BtnCadastro");
-        var span = document.getElementsByClassName("close")[0];
+        var modal = document.getElementById("modalCadastro ");
+        var btn = document.getElementById("BtnCadastro ");
+        var span = document.getElementsByClassName("close ")[0];
 
         btn.onclick = function() {
-            modal.style.display = "block";
+            modal.style.display = "block ";
         }
         span.onclick = function() {
-            modal.style.display = "none";
+            modal.style.display = "none ";
         }
         window.onclick = function(event) {
             if (event.target == modal) {
-                modal.style.display = "none";
+                modal.style.display = "none ";
             }
         }
 
