@@ -57,23 +57,7 @@ body {
     margin-top: 7px;
 }*/
 
-#login {
-    font-size: 18px;
-    display: block;
-    height: 22px;
-    width: 126px;
-    left: 0px;
-    top: 13px;
-    border-radius: 5px;
-    color: #4450E4;
-    border: 1px solid #4450E4;
-    background-color: white;
-    font-weight: 700;
-    text-align: center;
-    margin: auto;
-    padding: 13px;
-    margin-right: 41px;
-}
+
 
 #registro {
     font-size: 18px;

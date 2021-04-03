@@ -5,7 +5,38 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+#registro {
+    font-size: 18px;
+    
+    height: 22px;
+    width: 126px;
+    left: 0px;
+    top: 13px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #4450E4;
+    background-color: #4450E4;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding: 13px;
+}
+#login {
+    font-size: 18px;
+    
+    height: 22px;
+    width: 126px;
+    
+    border-radius: 5px;
+    color: #4450E4;
+    border: 1px solid #4450E4;
+    background-color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding: 13px;
+    margin-right: 41px;
+}
 body {
     font-family: sans-serif;
 }
@@ -49,9 +80,18 @@ a.active,a:hover {
 .checkbtn{
     font-size: 30px;
     color: black;
-    float: right;
+    float: left;
     line-height: 80px;
     margin-right: 40px;
+    margin-left: 20px;
+    display: none;
+}
+.mobilelogo{
+    
+    float: right;
+    border: 1px dotted;
+    margin-right: 20px;
+    margin-top: 20px;
     display: none;
 }
 #check{
@@ -60,7 +100,8 @@ a.active,a:hover {
 
 @media (max-width: 952px) {
     .logo{
-        width: 30%;
+        width: 301px;
+        height: 88px;
     }
     nav ul li a{
         font-size: 16px;
@@ -73,6 +114,9 @@ a.active,a:hover {
         display: none;
     }
     .checkbtn{
+        display: block;
+    }
+    .mobilelogo{
         display: block;
     }
     ul{
