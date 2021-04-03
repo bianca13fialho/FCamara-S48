@@ -299,8 +299,9 @@ nav a {
 }
 
 .alunos {
-    width: 328px;
-    height: 328px;
+    padding-top: 20px;
+    width: 350px;
+    height: 340px;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
