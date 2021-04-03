@@ -1,5 +1,5 @@
 body {
-    margin-right: 85px;
+    /*margin-right: 85px;*/
     margin-top: 28px;
     max-width: 100%;
     overflow-x: hidden;
@@ -16,6 +16,10 @@ body {
 
 .espacoentre {
     justify-content: space-evenly;
+}
+
+.around {
+    justify-content: space-around;
 }
 
 .home {
@@ -57,6 +61,7 @@ body {
     margin-top: 7px;
 }*/
 
+
 #login {
     font-size: 18px;
     display: block;
@@ -74,7 +79,6 @@ body {
     padding: 13px;
     margin-right: 41px;
 }
-
 #registro {
     font-size: 18px;
     display: block;
@@ -258,7 +262,8 @@ nav a {
 }
 
 .intrucao {
-    margin-left: 148px;
+    margin: auto;
+    /*margin-left: 148px;*/
     margin-top: 103px;
 }
 
@@ -279,4 +284,79 @@ nav a {
 .passo img {
     margin: auto;
     display: block;
+}
+
+.azul {
+    
+    width: 100%;
+    height: 748px;
+    background-color: #5E68EB;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.boxes {
+    margin-top: 130px;
+}
+.alunos {
+    width: 328px;
+    height: 328px;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+ h4 {
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.azul h1 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 91px;
+
+}
+
+.botaomini {
+    display: inline-block;
+    border-radius: 60px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    width: 139px;
+    background-color: #4450E4;
+    color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 35px;
+    justify-content: center;
+    
+}
+
+.botaomini p {
+    margin-top: 0px;
 }
