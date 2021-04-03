@@ -321,8 +321,14 @@
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   .container .flex-container {
 =======
+=======
+
+  .container .flex-container {
+
+>>>>>>> 73b4a9e55b616a1fe389b591d407255d3bcc38c4
 @media only screen and (max-width: 600px) {
     .cards {
         border-radius: 50%;
@@ -332,7 +338,11 @@
 }
 
 .container .flex-container {
+<<<<<<< HEAD
 >>>>>>> debb8365a5b15d90a04daa55055dc00bbff4a8fd
+=======
+
+>>>>>>> 73b4a9e55b616a1fe389b591d407255d3bcc38c4
     display: flex;
     justify-content: center;
     align-items: center;
