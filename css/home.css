@@ -631,7 +631,57 @@ a.active,a:hover {
         margin-top: 18.599vw;
         align-items: center;
     }
+    .home2 {
+        margin-bottom: 0%;
+        padding-bottom: 0%;     
+    }
+    .boxes {
+        width: 150%;
+        margin-top: 8.937vw;
+    }
+    .azul {
+        width: 200%;
+        height: 135.502vw;
+    }
+    .alunos {
+        width: 71.981vw;
+        height: 80.676vw;
+        justify-content: center;
+        align-items: center;
+        color: #2C2C2C;
+                
+    }
+    .alunos h4 {
+        margin-top: 2.899vw;
+        border: 1px dotted pink;
+        width: 98%;
+        font-size: 5.797vw;
+        color: #2C2C2C;
+        
 
+    }
+    .alunos p {
+        margin-top: 1vw;
+        font-size: 3.865vw;
+        line-height: 150%;
+        /*width: 60.870vw;*/
+        padding: 5%;
+        border: 1px dotted;
+        justify-self: center;
+    }
+    .alunos img {
+        width: 24.155vw;
+        height: 24.155vw;
+        
+    }
+    .azul h1 {
+        font-size: 7.246vw;
+        margin-top:7.729vw;
+        padding-top: 0%;
+        width: 98vw;
+        text-align: center;
+        border: 1px dotted pink;
+    }
 
 
 
