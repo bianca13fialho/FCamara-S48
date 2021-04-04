@@ -5,6 +5,10 @@ Ponte de Lapis
 Desenvolvimento de uma plataforma web-responsiva capaz de conectar, de forma fácil e rápida, alunos de escolas públicas que precisam 
 de materiais escolares e doadores dispostos a contribuir.
 
+## Status
+Em desenvolvimento
+
+
 
 ## Tecnologias 
 HTML5 <br>
