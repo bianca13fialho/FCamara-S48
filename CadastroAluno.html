@@ -10,126 +10,32 @@
 </head>
 
 <body>
-    <div id='formCadastro'>
-        <form action="x.php" method="post" autocomplete="on">
-
-
-            <label for="nomecompleto"> Nome do Pai Completo:</label><br>
-            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Nome do Pai" required><br>
-
-            <br><label for="nomecompleto"> Nome da Mãe Completo:</label><br>
-            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Nome da Mãe" required><br>
-
-            <br><label for="nomecompleto"> Nome do Aluno Completo:</label><br>
-            <input type="text" id="nomecompleto" name="nomecompleto" placeholder="Nome do Aluno" required><br>
-
-            <br><label for="tel">Telefone do responsável:</label><br> 
-            <input type="tel" name="tel" placeholder="(11) xxxxx-xxxx"><Br>
-
-            <br><label for="cidade"> Selecione sua Cidade: </label><br>
-            <input list="cidade" />
-            <datalist id="cidade">
-                <option value="SÃO PAULO">
-                <option value="GUARULHOS">
-                <option value="CAMPINAS">
-                <option value="SÃO BERNARDO DO CAMPO">
-                <option value="SÃO JOSÉ DOS CAMPOS">
-                <option value="SANTO ANDRÉ">
-                <option value="RIBEIRÃO PRETO">
-                <option value="OSASCO">
-                <option value="SOROCABA">
-                <option value="MAUÁ">
-                <option value="SÃO JOSÉ DO RIO PRETO">
-                <option value="MOGI DAS CRUZES">
-                <option value="SANTOS">
-                <option value="DIADEMA">
-                <option value="JUNDIAÍ">
-                <option value="PIRACICABA">
-                <option value="CARAPICUÍBA">
-                <option value="BAURU">
-                <option value="...">
-            </datalist><br>
-            
-                <br><label for="nomeEscola"> Qual o nome da sua escola: </label><br>
-                <input type="text" class="text1" id="nomecompleto" name="nomeEscola" placeholder="Nome da Escola"><br>
-
-                <br><label for="enderecoEscola"> Digite a rua da sua escola: </label><br>
-                <input type="text" class="text" name="enderecoEscola" placeholder="Endereço da Escola"><br>
-                
-            <div class="flex-container">    
+<nav>
+        <div class="flex-container">
+            <div class="flex-container">
                 <div>
-                    <br><label for="cepEscola"> CEP da sua escola: </label><br>
-                    <input type="text" name="cep" size="5" maxlength="5" placeholder="xxxxx"> - <input type="text" name="cep2" size="3" maxlength="3" placeholder="xxx">
+                    <img src="imgs/Logo 1.png" id="logo">
                 </div>
-                <div class="matricula">
-                    <br><label for="matriculaEscola"> Seu número de matrícula: </label><br>
-                    <input type="text"  name="matriculaEscola" placeholder="Número de matrícula"><br>
+                <div class="home">
+                    <a href="home.html">Home</a>
+
                 </div>
             </div>
-            <div id="listaNecessidade">
-                <Br><label for="lista"> Preencha sua Lista:</label><br>
-
-                <input type="checkbox" id="estojo" name="estojo" value="estojo">
-                <label for="estojo"> Estojo </label><br>
-
-                <input type="checkbox" id="lapis12cores" name="lapis12cores" value="lapis12cores">
-                <label for="lapis12cores"> Lápis de Cor - 12 Cores </label><br>
-
-                <input type="checkbox" id="lapis24cores" name="lapis24cores" value="lapis24cores">
-                <label for="lapis24cores"> Lápis de Cor - 24 Cores </label><br>
-
-                <input type="checkbox" id="CanetaAP" name="CanetaAP" value="CanetaAP">
-                <label for="CanetaAP"> Caneta Esferográfica Azul ou Preta </label><br>
-
-                <input type="checkbox" id="CanetaV" name="CanetaV" value="CanetaV">
-                <label for="CanetaV"> Caneta Esferográfica Vermelha </label><br>
-
-                <input type="checkbox" id="LapisP" name="LapisP" value="LapisP">
-                <label for="LapisP"> Lápis Preto </label><br>
-
-                <input type="checkbox" id="cola" name="cola" value="cola">
-                <label for="cola"> Cola Líquida </label><br>
-
-                <input type="checkbox" id="tesoura" name="tesoura" value="tesoura">
-                <label for="tesoura"> Tesoura sem Ponta </label><br>
-
-                <input type="checkbox" id="colabastao" name="colabastao" value="colabastao">
-                <label for="colabastao"> Cola Bastão </label><br>
-
-                <input type="checkbox" id="borracha" name="borracha" value="borracha">
-                <label for="borracha"> Borracha </label><br>
-
-                <input type="checkbox" id="Apontador" name="Apontador" value="apontador">
-                <label for="Apontador"> Apontador </label><br>
-
-                <input type="checkbox" id="regua" name="regua" value="regua">
-                <label for="regua"> Régua</label><br>
-
-                <input type="checkbox" id="caderno" name="caderno" value="caderno">
-                <label for="caderno"> Caderno Universitário </label><br>
-
-                <input type="checkbox" id="cadernoMaterias" name="cadernoMaterias" value="cadernoMaterias">
-                <label for="cadernoMaterias"> Caderno de 20 Matérias </label><br>
-
-                <input type="checkbox" id="mochila" name="mochila" value="mochila">
-                <label for="mochila"> Mochila Escolar </label><br>
-
-                <input type="checkbox" id="alcool" name="alcool" value="alcool">
-                <label for="alcool"> Álcool em Gel </label><br>
-
-                <input type="checkbox" id="agenda" name="agenda" value="agenda">
-                <label for="agenda"> Agenda </label><br><br>
-
-                <label>Oque você precisa não consta na lista? Adicione Abaixo:</label><br>
-                <textarea rows="5" cols="50" placeholder="Escreva Aqui..."></textarea><br><br>
+            <div class="sobrenos">
+                <a href="sobrenós.html">Sobre nós</a>
             </div>
+            <div class="flex-container" class="espacoentre">
+                <div id="login">
+                    <a href="#">Login</a>
+                </div>
+                <div id="registro">
+                    <a href="#">Cadastro</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-            <input type="submit" value="Enviar" >
-            <input type="reset" value="Limpar">
-            
 
-        </form>
-    </div>
 </body>
 
 </html>
