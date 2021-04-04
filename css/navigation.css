@@ -136,6 +136,9 @@ a.active,a:hover {
         margin-right: 41px;
     }*/
 }
+#vercaomobil {
+    display: none;
+}
 
 @media (max-width: 858px) {
     .logo {
