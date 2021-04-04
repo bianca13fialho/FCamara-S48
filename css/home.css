@@ -108,10 +108,11 @@ nav a {
 
 #logoG {
     margin-left: 85px;
-    width: 301px;
-    height: 88px;
+    width: 20vw;
+    height: 6vw;
     position: relative;
     bottom: 10px;
+    border: 1px dotted;
 }
 
 .apresenta {
@@ -205,6 +206,7 @@ nav a {
     border: 1px solid #2C2C2C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
+    width: 88.194vw;
 }
 
 .divrelativa img {
@@ -502,7 +504,25 @@ a.active,a:hover {
 .sumir {
     display: none;
 }
+
+.imgprimeira {
+    width: 67.431vw;
+    border: 1px dotted;
+}
 @media (max-width: 858px) {
+    .botaopadrao {
+        width: 64.493vw;
+        height: 8.14vh;
+        align-self: center;
+    }
+
+    #aluno, #doador {
+        font-size: 4.3vw;
+        line-height: 8vh;
+        
+
+    }
+    
     .sumir {
         display: contents;
         width: 60.783vw;
