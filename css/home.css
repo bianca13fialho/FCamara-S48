@@ -11,6 +11,7 @@ body {
     flex-direction: row;
 }
 
+
 .between {
     justify-content: space-between;
 }
@@ -113,7 +114,7 @@ nav a {
     height: 6vw;
     position: relative;
     bottom: 10px;
-    border: 1px dotted;
+    
 }
 
 .apresenta {
@@ -456,7 +457,6 @@ h4 {
   }
 .vercaomobil {
     display: none;
-    border: 1px dotted;
     width: 100%;
 }
 nav ul {
@@ -547,7 +547,7 @@ a.active,a:hover {
 
     .apresenta {
         width: 90vw;
-        margin-left: 4vw;
+        margin-left: 0vw;
         margin-right: 4vw;
         margin-top: 6vh;
         
@@ -733,6 +733,14 @@ a.active,a:hover {
         align-self: center;
         margin-bottom: 10%;
         
+    }
+    .landin {
+        background-image: url("../imgs/Landing.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width:84.783vw;
+        height:57.488vw ;
     }
 
 
