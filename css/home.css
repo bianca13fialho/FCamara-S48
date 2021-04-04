@@ -509,14 +509,16 @@ a.active,a:hover {
 .sumir {
     display: none;
 }
+.sumir2 {
+    display: none;
+}
 
 .imgprimeira {
     width: 67.431vw;
-    border: 1px dotted;
 }
 
 
-/*
+
 @media screen and (max-width: 600px) {
     .botaopadrao {
         width: 64.493vw;
@@ -532,7 +534,9 @@ a.active,a:hover {
     #aluno {
         margin-top: 4vh;
     }
-    
+    .sumir2 {
+        display: block;
+    }
     .sumir {
         display: contents;
         width: 60.783vw;
@@ -657,7 +661,6 @@ a.active,a:hover {
     }
     .alunos h4 {
         margin-top: 2.899vw;
-        border: 1px dotted pink;
         width: 98%;
         font-size: 5.797vw;
         color: #2C2C2C;
@@ -670,8 +673,7 @@ a.active,a:hover {
         line-height: 150%;
         /*width: 60.870vw;*/
         
-        /*padding: 5%;
-        border: 1px dotted;
+        padding: 5%;
         justify-self: center;
     }
     .alunos img {
@@ -685,9 +687,53 @@ a.active,a:hover {
         padding-top: 0%;
         width: 98vw;
         text-align: center;
-        border: 1px dotted pink;
+    
     }
 
+
+    .home3 {
+        margin-left: 0%;
+        margin-top: 15.459vw;
+    }
+    .home3 h1 {
+        width: 90.338vw;
+        font-size: 7.246vw;
+        text-align: center;
+
+    }
+    .home3 p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 4.348vw;
+        width: 87.923vw;
+        margin-left: 4.831vw;
+    }
+    .grupoescola {
+        margin-top: 11.836vw;
+        height: 95vw;
+        
+    }
+    .grupoescola img {
+        width: 79.227vw;
+        height: 79.227vw;
+        margin-left: 9.662vw;
+        
+    }
+
+    .rodape {
+        margin-top: 20vh;
+    }
+    .logorodape {
+        width: 67.633vw;
+        height: 19.565vw;
+        margin-left: 0%;
+    }
+    .icons {
+        justify-content: center;
+        padding: 0%;
+        align-self: center;
+        margin-bottom: 10%;
+        
+    }
 
 
 
