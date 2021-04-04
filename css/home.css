@@ -1,7 +1,8 @@
+
 body {
     /*margin-right: 85px;*/
     margin-top: 28px;
-    max-width: 100%;
+    
     overflow-x: hidden;
 }
 
@@ -9,6 +10,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 
 .between {
     justify-content: space-between;
@@ -112,7 +114,7 @@ nav a {
     height: 6vw;
     position: relative;
     bottom: 10px;
-    border: 1px dotted;
+    
 }
 
 .apresenta {
@@ -455,7 +457,6 @@ h4 {
   }
 .vercaomobil {
     display: none;
-    border: 1px dotted;
     width: 100%;
 }
 nav ul {
@@ -508,12 +509,17 @@ a.active,a:hover {
 .sumir {
     display: none;
 }
+.sumir2 {
+    display: none;
+}
 
 .imgprimeira {
     width: 67.431vw;
-    border: 1px dotted;
 }
-@media (max-width: 858px) {
+
+
+
+@media screen and (max-width: 600px) {
     .botaopadrao {
         width: 64.493vw;
         height: 8.14vh;
@@ -528,7 +534,9 @@ a.active,a:hover {
     #aluno {
         margin-top: 4vh;
     }
-    
+    .sumir2 {
+        display: block;
+    }
     .sumir {
         display: contents;
         width: 60.783vw;
@@ -539,7 +547,7 @@ a.active,a:hover {
 
     .apresenta {
         width: 90vw;
-        margin-left: 4vw;
+        margin-left: 0vw;
         margin-right: 4vw;
         margin-top: 6vh;
         
@@ -653,7 +661,6 @@ a.active,a:hover {
     }
     .alunos h4 {
         margin-top: 2.899vw;
-        border: 1px dotted pink;
         width: 98%;
         font-size: 5.797vw;
         color: #2C2C2C;
@@ -665,8 +672,8 @@ a.active,a:hover {
         font-size: 3.865vw;
         line-height: 150%;
         /*width: 60.870vw;*/
+        
         padding: 5%;
-        border: 1px dotted;
         justify-self: center;
     }
     .alunos img {
@@ -680,9 +687,61 @@ a.active,a:hover {
         padding-top: 0%;
         width: 98vw;
         text-align: center;
-        border: 1px dotted pink;
+    
     }
 
+
+    .home3 {
+        margin-left: 0%;
+        margin-top: 15.459vw;
+    }
+    .home3 h1 {
+        width: 90.338vw;
+        font-size: 7.246vw;
+        text-align: center;
+
+    }
+    .home3 p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 4.348vw;
+        width: 87.923vw;
+        margin-left: 4.831vw;
+    }
+    .grupoescola {
+        margin-top: 11.836vw;
+        height: 95vw;
+        
+    }
+    .grupoescola img {
+        width: 79.227vw;
+        height: 79.227vw;
+        margin-left: 9.662vw;
+        
+    }
+
+    .rodape {
+        margin-top: 20vh;
+    }
+    .logorodape {
+        width: 67.633vw;
+        height: 19.565vw;
+        margin-left: 0%;
+    }
+    .icons {
+        justify-content: center;
+        padding: 0%;
+        align-self: center;
+        margin-bottom: 10%;
+        
+    }
+    .landin {
+        background-image: url("../imgs/Landing.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width:84.783vw;
+        height:57.488vw ;
+    }
 
 
 
