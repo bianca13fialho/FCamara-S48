@@ -116,7 +116,7 @@ nav a {
 }
 
 .apresenta {
-    margin-left: 119px;
+    margin-left: 8.264vw;
     width: 643px;
     margin-top: 168px;
 }
@@ -182,17 +182,23 @@ nav a {
     font-weight: 700;
     font-size: 25px;
     line-height: 70px;
+    
 }
 
 #conheca {
-    position: absolute;
+    /*position: absolute;*/
+    display: inline-block;
+    
+    width: 100%;
+    text-align: center;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 25px;
     color: #2C2C2C;
-    margin-left: 625px;
-    margin-top: 80px;
+    /*margin-left: 625px;*/
+    margin-top: 7.8vw;
+    margin-bottom: 1%;
 }
 
 .divrelativa {
@@ -202,11 +208,12 @@ nav a {
 
 #regua {
     position: relative;
-    margin-left: 85px;
+    margin-left: 5.903vw;
     border: 1px solid #2C2C2C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
     width: 88.194vw;
+    
 }
 
 .divrelativa img {
@@ -215,7 +222,7 @@ nav a {
     width: 50px;
     height: 50px;
     left: 50%;
-    top: -35px;
+    top: 85%;
     z-index: 5;
 }
 
@@ -233,14 +240,14 @@ nav a {
 }
 
 .artigoh {
-    margin-top: 54px;
-    height: 168px;
-    width: 1072px;
+    margin-top: 3.750vw;
+    height: 11.6vw;
+    width: 74vw;
 }
 
 .artigoh h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 62px;
+    font-size: 4.306vw;
     font-weight: 700;
     line-height: 74px;
     color: #2C2C2C;
@@ -248,16 +255,13 @@ nav a {
 }
 
 .artigop {
-    height: 78px;
-    width: 858px;
-}
-
-.artigop p {
+    height: 5.417vw;
+    width: 59.583vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 1.667vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 2.500vw;
     letter-spacing: 0em;
     text-align: center;
     margin-top: 0%;
@@ -266,21 +270,21 @@ nav a {
 .intrucao {
     margin: auto;
     /*margin-left: 148px;*/
-    margin-top: 103px;
+    margin-top: 7.153vw;
 }
 
 .passo {
-    width: 300px;
+    width: 20.556vw;
     align-items: center;
     justify-content: center;
 }
 
 .passo p {
     text-align: center;
-    margin-top: 64px;
+    margin-top: 4.444vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.250vw;
+    line-height: 1.736vw;
 }
 
 .passo img {
@@ -514,13 +518,15 @@ a.active,a:hover {
         width: 64.493vw;
         height: 8.14vh;
         align-self: center;
+        margin-bottom: 0;
     }
 
     #aluno, #doador {
         font-size: 4.3vw;
         line-height: 8vh;
-        
-
+    }
+    #aluno {
+        margin-top: 4vh;
     }
     
     .sumir {
@@ -535,7 +541,7 @@ a.active,a:hover {
         width: 90vw;
         margin-left: 4vw;
         margin-right: 4vw;
-        margin-top: 70px;
+        margin-top: 6vh;
         
     }
 
@@ -551,7 +557,77 @@ a.active,a:hover {
         line-height: 150%;
         width: 90vw;
         text-align: center;
+        margin-top: 5vh;
     }
+    #conheca {
+        display: none;
+    }
+    #regua {
+        margin-left: 0;
+    }
+
+    .divrelativa img {
+        left: 43%;
+        top: 20%;
+    }
+
+    .artigoh {
+        /*justify-self: center;
+        width: fit-content;
+        margin-left: 0%;
+        padding: 0%;
+        border: 1px dotted;*/
+        
+        
+        
+    }
+    .artigoh h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 7.246vw;
+        line-height: 8.696vw;
+        margin-left: 0%;
+
+
+    }
+
+    .artigop {
+       /* width: 90.338vw;*/
+
+    }
+
+    .passo {
+        width: 71.498vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .passo p {
+        text-align: center;
+        margin-top: 7.729vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 4.348vw;
+        line-height: 6.039vw;
+    }
+
+    .caixa1 {
+        width: 25.121vw;
+        height: 26.812vw;
+    }
+    .group1 {
+        width: 23.913vw;
+        height: 26.329vw;
+    }
+    .crianca1 {
+        width: 25.362vw;
+        height: 28.502vw;
+    }
+    .intrucao {
+        align-items: center;
+    }
+
+
+
     .vercaomobil {
         display: inline-block;
     }
