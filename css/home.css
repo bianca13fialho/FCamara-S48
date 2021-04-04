@@ -653,6 +653,7 @@ a.active,a:hover {
     }
     .mobilelogo{
         display: block;
+        margin-right: 5%;
     }
     ul{
         position: fixed;
