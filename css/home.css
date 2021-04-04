@@ -116,7 +116,7 @@ nav a {
 }
 
 .apresenta {
-    margin-left: 119px;
+    margin-left: 8.264vw;
     width: 643px;
     margin-top: 168px;
 }
@@ -182,17 +182,23 @@ nav a {
     font-weight: 700;
     font-size: 25px;
     line-height: 70px;
+    
 }
 
 #conheca {
-    position: absolute;
+    /*position: absolute;*/
+    display: inline-block;
+    
+    width: 100%;
+    text-align: center;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 25px;
     color: #2C2C2C;
-    margin-left: 625px;
-    margin-top: 80px;
+    /*margin-left: 625px;*/
+    margin-top: 7.8vw;
+    margin-bottom: 1%;
 }
 
 .divrelativa {
@@ -202,11 +208,12 @@ nav a {
 
 #regua {
     position: relative;
-    margin-left: 85px;
+    margin-left: 5.903vw;
     border: 1px solid #2C2C2C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
     width: 88.194vw;
+    
 }
 
 .divrelativa img {
@@ -215,7 +222,7 @@ nav a {
     width: 50px;
     height: 50px;
     left: 50%;
-    top: -35px;
+    top: 85%;
     z-index: 5;
 }
 
@@ -514,13 +521,15 @@ a.active,a:hover {
         width: 64.493vw;
         height: 8.14vh;
         align-self: center;
+        margin-bottom: 0;
     }
 
     #aluno, #doador {
         font-size: 4.3vw;
         line-height: 8vh;
-        
-
+    }
+    #aluno {
+        margin-top: 4vh;
     }
     
     .sumir {
@@ -535,7 +544,7 @@ a.active,a:hover {
         width: 90vw;
         margin-left: 4vw;
         margin-right: 4vw;
-        margin-top: 70px;
+        margin-top: 6vh;
         
     }
 
@@ -551,6 +560,7 @@ a.active,a:hover {
         line-height: 150%;
         width: 90vw;
         text-align: center;
+        margin-top: 5vh;
     }
     .vercaomobil {
         display: inline-block;
