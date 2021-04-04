@@ -499,17 +499,38 @@ a.active,a:hover {
     transition: .5s;
 }
 
+.sumir {
+    display: none;
+}
 @media (max-width: 858px) {
+    .sumir {
+        display: contents;
+        width: 60.783vw;
+    }
     .mobilcol {
         flex-direction: column;
     }
 
     .apresenta {
-        width: 374px;
-        font-size: 20px;
+        width: 90vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 70px;
+        
+    }
+
+    .apresenta h1 {
+        font-size: 7.24vw;
+        line-height: 120%;
+        text-align: center;
+        
     }
     .apresenta p {
-
+        font-size: 3.3vw;
+        font-family: 'Roboto', sans-serif;
+        line-height: 150%;
+        width: 90vw;
+        text-align: center;
     }
     .vercaomobil {
         display: inline-block;
