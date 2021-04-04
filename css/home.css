@@ -439,9 +439,17 @@ h4 {
 }
 
 /* Menu Mobile */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
 .vercaomobil {
     display: none;
-    
+    border: 1px dotted;
     width: 100%;
 }
 nav ul {
@@ -492,6 +500,17 @@ a.active,a:hover {
 }
 
 @media (max-width: 858px) {
+    .mobilcol {
+        flex-direction: column;
+    }
+
+    .apresenta {
+        width: 374px;
+        font-size: 20px;
+    }
+    .apresenta p {
+
+    }
     .vercaomobil {
         display: inline-block;
     }
