@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<nav>
+    <nav>
         <div class="flex-container">
             <div class="flex-container">
                 <div>
@@ -35,7 +35,56 @@
         </div>
     </nav>
 
+    <div class="content">
+        <img src="imgs/imgCadastroAluno.png">
 
+        <div class="cadastro">
+            <h1>Cadastro de alunos</h1>
+
+            <div class="form-cadastro">
+                <div class="row">
+                    <div class="nomeAluno">
+                        <label for="nomeAluno">Nome do Aluno</label>
+                        <br><input type="text" id="nomeAluno" name="nomeAluno" required>
+                    </div>
+                    <div class="matricula">
+                        <label for="matricula">Matrícula</label>
+                        <br><input type="tel" id="matricula" name="matricula" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="telEmergencia">
+                        <label for="telEmergencia">Telefone de Emergência</label>
+                        <br><input type="tel" id="telEmergencia" name="telEmergencia" required>
+                    </div>
+                    <div class="cepEscola">
+                        <label for="cepEscola">CEP da Escola</label>
+                        <br><input type="tel" id="cepEscola" name="cepEscola" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="escola">
+                        <label for="Escola">Escola</label>
+                        <br><input type="text" id="Escola" name="Escola" required>
+                    </div>
+                    <div class="estado">
+                        <label for="Estado">Estado</label>
+                        <br><input type="text" id="Estado" name="Estado" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cidade">
+                        <br><label for="Cidade">Cidade</label>
+                        <br><input type="text" id="Cidade" name="Cidade" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <a href="escolhaPerfil.html" id="cadastroAluno" class="botaopadrao">Voltar</a>
+        <a href="#" id="cadastroMateriais" class="botaopadrao">Materiais</a>
+    </div>
 </body>
 
 </html>
