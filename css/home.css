@@ -570,29 +570,34 @@ a.active,a:hover {
         left: 43%;
         top: 20%;
     }
-
+    .margemfix {
+        
+        margin-left: 0px;
+        margin-right: 0%
+        ;
+    }
     .artigoh {
-        /*justify-self: center;
-        width: fit-content;
         margin-left: 0%;
         padding: 0%;
-        border: 1px dotted;*/
-        
-        
+        margin-right: 0%;
+        width: 90%;
         
     }
     .artigoh h1 {
-        width: 90%;
         text-align: center;
-        font-size: 7.246vw;
+        font-size: 7vw;
         line-height: 8.696vw;
         margin-left: 0%;
-
 
     }
 
     .artigop {
-       /* width: 90.338vw;*/
+        margin-top: 5%;
+       width: 90.338vw;
+       height: 18.841vw;
+       font-size: 4.348vw;
+       line-height: 150%;
+       font-family: 'Roboto', sans-serif;
 
     }
 
@@ -623,8 +628,14 @@ a.active,a:hover {
         height: 28.502vw;
     }
     .intrucao {
+        margin-top: 18.599vw;
         align-items: center;
     }
+
+
+
+
+
 
 
 
