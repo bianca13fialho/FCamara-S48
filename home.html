@@ -14,16 +14,34 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Icone Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e199f902ef.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="home1">
             <nav>
-                <div class="flex-container">
+                <div class="vercaomobil">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <img class="mobilelogo" src="imgs/logoMobile.png">
+                    <img class="logo" src="imgs/Logo 1.png">
+                    <ul class="vercaomobil">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li class="botao" ><a href="#">login</a></li>
+                        <li class="botao" ><a href="#">cadastro</a></li>
+                    </ul>
+                </div>
+                <div class="flex-container invisivel">
                     <div class="flex-container">
                         <div>
-                            <img src="imgs/logo.png" id="logo">
+                            <img src="imgs/logo.png" id="logoG">
                         </div>
                         <div class="home">
                             <a href="home.html">Home</a>
@@ -54,7 +72,7 @@
                     </h1>
                     <p>A Ponte de Lápis ajuda alunos de ensino público e doadores a se aproximarem através da vontade de fazer bem ao próximo. Cadastre-se!</p>
                     <img src="imgs/Landing.png">
-                    <div class="flex-container between">
+                    <div class="flex-container between mobilcol">
                         <a href="cadastroUsuario.html" id="doador" class="botaopadrao">Sou doador</a>
                         <a href="cadastroUsuario.html" id="aluno" class="botaopadrao">Sou aluno</a>
                     </div>
@@ -156,6 +174,23 @@
             </div>
         </div>
     </main>
+
+    <script>
+        
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementByClassName("vercaomobil");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

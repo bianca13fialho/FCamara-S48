@@ -106,7 +106,7 @@ nav a {
     text-decoration: none;
 }
 
-#logo {
+#logoG {
     margin-left: 85px;
     width: 301px;
     height: 88px;
@@ -436,4 +436,121 @@ h4 {
 
 .logoFace {
     margin-left: 30px;
+}
+
+/* Menu Mobile */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.vercaomobil {
+    display: none;
+    border: 1px dotted;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    
+    margin-top: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    
+}
+
+nav ul li a {
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-left: 20px;
+    display: none;
+}
+.mobilelogo{
+    
+    float: right;
+    
+    /*margin-right: 20px;*/
+    margin-top: 20px;
+    display: none;
+}
+#check{
+    display: none;
+}
+a.active,a:hover {
+    
+    transition: .5s;
+}
+
+@media (max-width: 858px) {
+    .mobilcol {
+        flex-direction: column;
+    }
+
+    .apresenta {
+        width: 374px;
+        font-size: 20px;
+    }
+    .apresenta p {
+
+    }
+    .vercaomobil {
+        display: inline-block;
+    }
+    .invisivel {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .mobilelogo{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 60%;
+        height: 60vh;
+        background:#5E68EB;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background:none;
+        color: white;
+        font-size: 25px;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
