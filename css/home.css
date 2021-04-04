@@ -1,7 +1,8 @@
+
 body {
     /*margin-right: 85px;*/
     margin-top: 28px;
-    max-width: 100%;
+    
     overflow-x: hidden;
 }
 
@@ -513,7 +514,10 @@ a.active,a:hover {
     width: 67.431vw;
     border: 1px dotted;
 }
-@media (max-width: 858px) {
+
+
+/*
+@media screen and (max-width: 600px) {
     .botaopadrao {
         width: 64.493vw;
         height: 8.14vh;
@@ -665,7 +669,8 @@ a.active,a:hover {
         font-size: 3.865vw;
         line-height: 150%;
         /*width: 60.870vw;*/
-        padding: 5%;
+        
+        /*padding: 5%;
         border: 1px dotted;
         justify-self: center;
     }
