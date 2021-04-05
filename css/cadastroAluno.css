@@ -250,6 +250,7 @@ label {
         margin-right: 0%;
         margin-left: 0%;
         padding-left: 0%;
+        margin-top: -10vw;
     }
     .cadastro {
         width: 97.517vw;
@@ -319,6 +320,12 @@ label {
     .botaopadrao {
         position: relative;
         margin-right: 80px;
-        width: 200px;
+        margin-bottom: 20vw;
+        width: 65vw;
+        height: 20vw;
+    }
+    #cadastroUsuario,
+    .botaopadrao {
+        font-size: 15px;
     }
 }

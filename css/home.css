@@ -1,8 +1,6 @@
-
 body {
     /*margin-right: 85px;*/
     margin-top: 28px;
-    
     overflow-x: hidden;
 }
 
@@ -10,7 +8,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-
 
 .between {
     justify-content: space-between;
@@ -114,7 +111,6 @@ nav a {
     height: 6vw;
     position: relative;
     bottom: 10px;
-    
 }
 
 .apresenta {
@@ -184,13 +180,11 @@ nav a {
     font-weight: 700;
     font-size: 25px;
     line-height: 70px;
-    
 }
 
 #conheca {
     /*position: absolute;*/
     display: inline-block;
-    
     width: 100%;
     text-align: center;
     font-size: 18px;
@@ -215,7 +209,6 @@ nav a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
     width: 88.194vw;
-    
 }
 
 .divrelativa img {
@@ -386,7 +379,6 @@ h4 {
 }
 
 .content-home3 p {
-    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 24px;
@@ -397,16 +389,12 @@ h4 {
 }
 
 .fundoschool {
-    
     position: absolute;
     margin-left: -320px;
     z-index: -5;
-    
-    
 }
 
 .school {
-    
     position: relative;
     margin-left: -10px;
     margin-right: 47px;
@@ -426,11 +414,9 @@ h4 {
     align-self: center;
     /*width: 450px;
     height: 100px;*/
-    
 }
 
 .icons {
-    
     padding: 80px;
 }
 
@@ -446,30 +432,33 @@ h4 {
     margin-left: 30px;
 }
 
+
 /* Menu Mobile */
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  .sticky + .content {
+}
+
+.sticky+.content {
     padding-top: 60px;
-  }
+}
+
 .vercaomobil {
     display: none;
     width: 100%;
 }
+
 nav ul {
     float: right;
     margin-right: 20px;
-    
     margin-top: 35px;
 }
 
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    
 }
 
 nav ul li a {
@@ -478,10 +467,9 @@ nav ul li a {
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    
 }
 
-.checkbtn{
+.checkbtn {
     font-size: 30px;
     color: black;
     float: left;
@@ -490,25 +478,27 @@ nav ul li a {
     margin-left: 20px;
     display: none;
 }
-.mobilelogo{
-    
+
+.mobilelogo {
     float: right;
-    
     /*margin-right: 20px;*/
     margin-top: 20px;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
-a.active,a:hover {
-    
+
+a.active,
+a:hover {
     transition: .5s;
 }
 
 .sumir {
     display: none;
 }
+
 .sumir2 {
     display: none;
 }
@@ -517,8 +507,6 @@ a.active,a:hover {
     width: 67.431vw;
 }
 
-
-
 @media screen and (max-width: 600px) {
     .botaopadrao {
         width: 64.493vw;
@@ -526,8 +514,8 @@ a.active,a:hover {
         align-self: center;
         margin-bottom: 0;
     }
-
-    #aluno, #doador {
+    #aluno,
+    #doador {
         font-size: 4.3vw;
         line-height: 8vh;
     }
@@ -544,20 +532,16 @@ a.active,a:hover {
     .mobilcol {
         flex-direction: column;
     }
-
     .apresenta {
         width: 90vw;
         margin-left: 0vw;
         margin-right: 4vw;
         margin-top: 6vh;
-        
     }
-
     .apresenta h1 {
         font-size: 7.24vw;
         line-height: 120%;
         text-align: center;
-        
     }
     .apresenta p {
         font-size: 3.3vw;
@@ -573,48 +557,40 @@ a.active,a:hover {
     #regua {
         margin-left: 0;
     }
-
     .divrelativa img {
+        position: absolute;
         left: 43%;
-        top: 20%;
+        margin-top: -7%;
     }
     .margemfix {
-        
         margin-left: 0px;
-        margin-right: 0%
-        ;
+        margin-right: 0%;
     }
     .artigoh {
         margin-left: 0%;
         padding: 0%;
         margin-right: 0%;
         width: 90%;
-        
     }
     .artigoh h1 {
         text-align: center;
         font-size: 7vw;
         line-height: 8.696vw;
         margin-left: 0%;
-
     }
-
     .artigop {
         margin-top: 5%;
-       width: 90.338vw;
-       height: 18.841vw;
-       font-size: 4.348vw;
-       line-height: 150%;
-       font-family: 'Roboto', sans-serif;
-
+        width: 90.338vw;
+        height: 18.841vw;
+        font-size: 4.348vw;
+        line-height: 150%;
+        font-family: 'Roboto', sans-serif;
     }
-
     .passo {
         width: 71.498vw;
         align-items: center;
         justify-content: center;
     }
-    
     .passo p {
         text-align: center;
         margin-top: 7.729vw;
@@ -622,7 +598,6 @@ a.active,a:hover {
         font-size: 4.348vw;
         line-height: 6.039vw;
     }
-
     .caixa1 {
         width: 25.121vw;
         height: 26.812vw;
@@ -641,13 +616,14 @@ a.active,a:hover {
     }
     .home2 {
         margin-bottom: 0%;
-        padding-bottom: 0%;     
+        padding-bottom: 0%;
     }
     .boxes {
         width: 150%;
         margin-top: 8.937vw;
     }
     .azul {
+        margin-top: -70%;
         width: 200%;
         height: 135.502vw;
     }
@@ -657,40 +633,32 @@ a.active,a:hover {
         justify-content: center;
         align-items: center;
         color: #2C2C2C;
-                
     }
     .alunos h4 {
         margin-top: 2.899vw;
         width: 98%;
         font-size: 5.797vw;
         color: #2C2C2C;
-        
-
     }
     .alunos p {
         margin-top: 1vw;
         font-size: 3.865vw;
         line-height: 150%;
         /*width: 60.870vw;*/
-        
         padding: 5%;
         justify-self: center;
     }
     .alunos img {
         width: 24.155vw;
         height: 24.155vw;
-        
     }
     .azul h1 {
         font-size: 7.246vw;
-        margin-top:7.729vw;
+        margin-top: 7.729vw;
         padding-top: 0%;
         width: 98vw;
         text-align: center;
-    
     }
-
-
     .home3 {
         margin-left: 0%;
         margin-top: 15.459vw;
@@ -699,7 +667,6 @@ a.active,a:hover {
         width: 90.338vw;
         font-size: 7.246vw;
         text-align: center;
-
     }
     .home3 p {
         font-family: 'Roboto', sans-serif;
@@ -710,15 +677,12 @@ a.active,a:hover {
     .grupoescola {
         margin-top: 11.836vw;
         height: 95vw;
-        
     }
     .grupoescola img {
         width: 79.227vw;
         height: 79.227vw;
         margin-left: 9.662vw;
-        
     }
-
     .rodape {
         margin-top: 13vh;
         width: 100.000vw;
@@ -735,22 +699,14 @@ a.active,a:hover {
         padding: 0%;
         align-self: center;
         margin-bottom: 10%;
-        
     }
     .landin {
         background-image: url("../imgs/Landing.png");
         background-repeat: no-repeat;
         background-size: cover;
-        
-        width:84.783vw;
-        height:57.488vw ;
+        width: 84.783vw;
+        height: 57.488vw;
     }
-
-
-
-
-
-
     .vercaomobil {
         display: inline-block;
     }
@@ -760,39 +716,39 @@ a.active,a:hover {
     .logo {
         display: none;
     }
-    .checkbtn{
+    .checkbtn {
         display: block;
     }
-    .mobilelogo{
+    .mobilelogo {
         display: block;
         margin-right: 5%;
     }
-    ul{
+    ul {
         position: fixed;
         width: 10%;
         height: 60vh;
-        background:#5E68EB;
+        background: #5E68EB;
         top: 80px;
         left: -110%;
         text-align: center;
         transition: all .5s;
         z-index: 50;
     }
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 20px;
     }
-    a:hover, a.active{
-        background:none;
+    a:hover,
+    a.active {
+        background: none;
         color: white;
         font-size: 25px;
-
     }
-    #check:checked ~ ul{
+    #check:checked~ul {
         left: 0;
     }
 }
