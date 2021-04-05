@@ -27,8 +27,8 @@ Em desenvolvimento
 
 ## Autores
 Bianca Fialho, desenvolvedora Front-End <br>
-Felipe Viana, UX Designer <br>
-Juan Pablo Rodicio, desenvolvedor Front-End <br>
-Leonardo Ferreira, desenvolvedor Full Stack <br>
-Lucas Ramalho, UX Designer <br>
-Yasmin Pierazo, desenvolvedora Full-Stack
+<br>Felipe Viana, UX Designer <br>
+<br>Juan Pablo Rodicio, desenvolvedor Front-End <br>
+<br>Leonardo Ferreira, desenvolvedor Full Stack <br>
+<br>Lucas Ramalho, UX Designer <br>
+<br>Yasmin Pierazo, desenvolvedora Full-Stack
