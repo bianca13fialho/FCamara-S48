@@ -115,8 +115,9 @@ nav a {
 }
 
 .btn {
-    width: 450px;
+    /*width: 43.542vw;*/
     margin-top: 100px;
+    /*height: 2.847vw;*/
 }
 
 .btn a {
@@ -124,12 +125,14 @@ nav a {
 }
 
 .doador {
+    width: 43.542vw;
+    height: 2.847vw;
     display: flex;
     flex-direction: row;
     width: 450px;
     height: 100px;
     background-color: #4450E4;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .doador p {
@@ -149,13 +152,15 @@ nav a {
 }
 
 .aluno {
+    width: 43.542vw;
+    height: 2.847vw;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
     width: 450px;
     height: 100px;
     background-color: #FF813E;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .aluno p {
@@ -196,4 +201,71 @@ h1 {
     font-weight: 700;
     font-size: 25px;
     line-height: 70px;
+}
+.esconder {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .esconder {
+        display: inline-block;
+        position: relative;
+        right: 12%;
+        top: 15%;
+    }
+    .relativ {
+
+    }
+    .sumir {
+        display: none;
+    }
+    html {
+        margin-left: 0%;
+    }
+    center {
+        margin-left: 0%;
+    }
+    body {
+        margin-left: 0%;
+    }
+    h1 {
+        font-size: 7vw;
+        width: 90.686vw;
+        text-align: center;
+        margin-left: 1.389vw;
+        
+        height: 8.696vw;
+        padding: 0%;
+        margin-top: 8.696vw;
+    }
+    .aluno {
+        margin-top: 11.353vw;
+        width: 90.097vw;
+        height: 18.841vw;
+        font-size: 4.348vw;
+    }
+    .doador {
+        
+        justify-content: center;
+        width: 90.097vw;
+        height: 18.841vw;
+        ;
+    }
+    .btn p {
+        
+        align-self: center;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        margin-left: 5%;
+    
+    }
+    .btn {
+        padding: 0%;
+        
+    }
+    .btn img {
+        width: 15.459vw;
+        height: 12.319vw;
+    }
 }

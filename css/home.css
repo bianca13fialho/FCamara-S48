@@ -720,9 +720,12 @@ a.active,a:hover {
     }
 
     .rodape {
-        margin-top: 20vh;
+        margin-top: 13vh;
+        width: 100.000vw;
+        height: 49.034vw;
     }
     .logorodape {
+        margin-top: 2.657vw;
         width: 67.633vw;
         height: 19.565vw;
         margin-left: 0%;

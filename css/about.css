@@ -5,6 +5,17 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-family: 'montserrat', sans-serif;
+    color: #2C2C2C;
+    font-size: 1.667vw;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    color: #2C2C2C;
+    font-size: 1.250vw;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
