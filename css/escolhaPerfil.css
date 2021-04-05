@@ -202,6 +202,7 @@ h1 {
     font-size: 25px;
     line-height: 70px;
 }
+
 .esconder {
     display: none;
 }
@@ -213,9 +214,7 @@ h1 {
         right: 12%;
         top: 15%;
     }
-    .relativ {
-
-    }
+    .relativ {}
     .sumir {
         display: none;
     }
@@ -233,7 +232,6 @@ h1 {
         width: 90.686vw;
         text-align: center;
         margin-left: 1.389vw;
-        
         height: 8.696vw;
         padding: 0%;
         margin-top: 8.696vw;
@@ -245,27 +243,27 @@ h1 {
         font-size: 4.348vw;
     }
     .doador {
-        
         justify-content: center;
         width: 90.097vw;
         height: 18.841vw;
         ;
     }
     .btn p {
-        
+        font-size: 15px;
         align-self: center;
         text-align: center;
         padding: 0%;
         margin: 0%;
         margin-left: 5%;
-    
     }
     .btn {
         padding: 0%;
-        
     }
     .btn img {
         width: 15.459vw;
         height: 12.319vw;
+    }
+    .aluno img {
+        margin-left: -20px;
     }
 }
