@@ -16,6 +16,7 @@ p {
     color: #2C2C2C;
     font-size: 1.250vw;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -150,4 +151,21 @@ nav a {
 .title {
     color: grey;
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .card img {
+        width: 100px;
+        height: 100px;
+    }
+    .card h1,
+    .title {
+        font-size: 15px;
+    }
+    .apresentacao1,
+    .apresentacao2 {
+        margin-left: 5px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }

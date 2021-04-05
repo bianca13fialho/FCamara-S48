@@ -20,6 +20,8 @@ body {
 .around {
     justify-content: space-around;
 }
+
+
 /*
 .home {
     font-size: 25px;
@@ -57,6 +59,8 @@ body {
     height: 6px;
     margin-top: 7px;
 }*/
+
+
 /*
 #login {
     font-size: 18px;
@@ -184,4 +188,28 @@ nav a {
     font-size: 25px;
     line-height: 70px;
     background-color: #4450E4;
+}
+
+@media screen and (max-width: 600px) {
+    .content img {
+        display: none;
+    }
+    .content {
+        margin-left: -120px;
+    }
+    .contentLogin {
+        margin-top: 10px;
+    }
+    .contentLogin h1 {
+        font-size: 20px;
+    }
+    .contentLogin input {
+        width: 200px;
+    }
+    .btnConfig {
+        margin-left: 20px;
+    }
+    .botaopadrao {
+        width: 175px;
+    }
 }
