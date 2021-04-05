@@ -200,13 +200,16 @@ h1 {
     background-color: #4450E4;
     margin-left: 60px;
 }
+
 label {
     color: #2C2C2C;
     font-family: 'roboto';
 }
+
 .btn {
     margin: 550px;
 }
+
 .sumir {
     display: none;
 }
@@ -216,21 +219,22 @@ label {
     border: 3px solid #CACACA;
     background-color: #F4F4F4;
 }
+
 .reaparecer {
     display: none;
 }
 
-
 @media screen and (max-width: 600px) {
     .reaparecer {
         display: block;
-    }   
+    }
     .aparecer {
         display: flex;
         border: 5px dotted blue;
     }
     body {
-        width: 100.000vw;;
+        width: 100.000vw;
+        ;
     }
     .sumir {
         display: inline-block;
@@ -246,31 +250,25 @@ label {
         margin-right: 0%;
         margin-left: 0%;
         padding-left: 0%;
-        
     }
     .cadastro {
-        
         width: 97.517vw;
         padding-top: 0%;
         margin-right: 0%;
         margin-left: 0%;
         padding-left: 0%;
-        border: 3px dotted pink;
     }
     h1 {
         font-size: 7.246vw;
         line-height: 1vw;
-        
         color: #2C2C2C;
         text-align: center;
         width: fit-content;
         padding: 0%;
         margin-left: 0%;
         margin-right: 0%;
-        
-        margin:auto;
+        margin: auto;
         margin-bottom: 12.386vw;
-        
     }
     input {
         width: 89.372vw;
@@ -287,9 +285,10 @@ label {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap
-       
     }
-    .content, .row, .btn {
+    .content,
+    .row,
+    .btn {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -298,25 +297,28 @@ label {
     .btn {
         margin: auto;
     }
-    .row input, p, label {
+    .row input,
+    p,
+    label {
         margin-left: 0%;
         padding-left: 0%;
         margin-top: 0%;
     }
-    
     .desaparecer {
         display: none;
     }
-  
-
     label {
-        color:#2C2C2C;
+        color: #2C2C2C;
         font-weight: 700;
         font-size: 4.348vw;
         line-height: 6.522vw;
         font-family: 'roboto', sans-serif;
         margin-top: 5%;
-        
         margin-bottom: 0%;
-}
+    }
+    .botaopadrao {
+        position: relative;
+        margin-right: 80px;
+        width: 200px;
+    }
 }
