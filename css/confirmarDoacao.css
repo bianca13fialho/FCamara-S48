@@ -9,6 +9,17 @@
     text-align: center;
     color: #2C2C2C;
 }
+.artigo {
+    margin-top: 10.764vw;
+    
+}
+.absoluto {
+    
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    z-index: -5;
+}
 
 
 h2  {
