@@ -1,183 +1,108 @@
-#logo{
-position: absolute;
-width: 301px;
-height: 88px;
-left: 85px;
-top: 28px;
+
+
+#titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 4.861vw;
+    text-align: center;
+    color: #2C2C2C;
 }
 
-#homeLink{
-position: absolute;
-width: 78px;
-height: 30px;
-left: 407px;
-top: 74px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 30px;
-
-color: #2C2C2C;
-}
-
-#sobreLink{
-position: absolute;
-width: 126px;
-height: 30px;
-left: 621px;
-top: 74px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 30px;
-}
-
-#btnLogin{
-position: absolute;
-width: 126px;
-height: 49px;
-left: 1062px;
-top: 63px;
-
-background: #FFFFFF;
-
-border: 1px solid #4450E4;
-border-radius: 5px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-
-text-align: center;
-
-color: #4450E4;
-}
-
-#btnCad{
-position: absolute;
-width: 126px;
-height: 49px;
-left: 1229px;
-top: 63px;
-
-background: #4450E4;
-border-radius: 5px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-
-text-align: center;
-
-color: #F4F4F4;
-}
-
-#titulo{
-position: absolute;
-width: 355px;
-height: 70px;
-left: calc(50% - 355px/2 - 0.5px);
-top: 259px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 70px;
-
-text-align: center;
-
-color: #2C2C2C;
-}
-
-h2{
-position: absolute;
-width: 879px;
-height: 70px;
-left: 280px;
-top: 359px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 70px;
-
-text-align: center;
-
-color: #000000;
+h2  {
+    margin-top: 2.083vw;
+    text-align: center;
+    width: 61.042vw;
+    height: 4.861vw;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.500vw;
+    line-height: 4.861vw;
+    color:#2C2C2C;
+    margin: auto;
 }
 
 #conteudo{
-position: absolute;
-width: 739px;
-height: 184px;
-left: 350px;
-top: 469px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: auto;
+    margin-top: 3.125vw;
+    width: 51.319vw;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
+#conteudo h3, h4 {
+    color:#2C2C2C;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    
+}
+#conteudo h3 {
+    font-size: 2.292vw;
+    font-weight: 700;
+}
+#conteudo h4 {
+    font-size: 2.083vw;
+    font-weight: 500;
+    line-height: 1vw;
+}
+.botoes {
+    margin: auto;
+    margin-top: 6.736vw;
+    padding: 0%;
+    
+    width: 53.056vw;
+    height: fit-content;
+    margin-bottom: 15.278vw;
+
+    
+}
+.espacoentre {
+    justify-content:space-between;
+}
 #end{
-position: absolute;
-width: 267px;
-height: 72px;
-right: 338px;
-top: 750px;
+    
+    width: 18.542vw;
+    height: 5vw;
+    background: #4450E4;
+    box-shadow: 0px 9px 20px -3px rgba(120, 84, 247, 0.33);
+    border-radius: 60px;
+    font-family: 'Montserrat';
+    
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 280%;
 
-background: #4450E4;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-box-shadow: 0px 9px 20px -3px rgba(120, 84, 247, 0.33);
-border-radius: 60px;
+    color: #F4F4F4;
+    margin-right: 12%
 
-
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 70px;
-/* identical to box height, or 280% */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #F4F4F4;
 }
 
 #impEt{
-position: absolute;
-width: 267px;
-height: 72px;
-left: 338px;
-top: 750px;
-
+    margin-left: 12%;
+    width: 18.542vw;
+height: 5vw;
 background: #FFFFFF;
-
 border: 1px solid #4450E4;
-
 box-shadow: 0px 9px 20px -3px rgba(120, 84, 247, 0.33);
 border-radius: 60px;
-
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
 line-height: 70px;
-
 display: flex;
 align-items: center;
 text-align: center;
-
 color: #4450E4;
 }
