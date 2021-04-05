@@ -164,7 +164,7 @@ nav a {
     }
     .apresentacao1,
     .apresentacao2 {
-        margin-left: 5px;
+        margin-left: -15vw;
         flex-direction: column;
         margin-top: 10px;
     }
