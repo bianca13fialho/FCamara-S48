@@ -42,7 +42,7 @@ h2  {
     margin: auto;
     margin-top: 3.125vw;
     width: 51.319vw;
-    height: fit-content;
+    height: 16.194vw;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -165,6 +165,9 @@ color: #4450E4;
     line-height: 70px;
     
 }
+.sumirm {
+    display: none;
+}
 
 @media screen and (max-width: 600px) {
     .absoluto {
@@ -186,7 +189,7 @@ color: #4450E4;
     }
 
     #conteudo {
-        margin-top: 13.043vw;
+        margin-top: 20.043vw;
         width: 88.647vw;
         height: 44.444vw;
     }
@@ -199,23 +202,38 @@ color: #4450E4;
         font-size: 4.831vw;
         font-weight: 500;
     }
-    .colunas {
-        display: flex;
+    
+    .botao_vdd {
+        margin-top: 18.841vw;
+        width: fit-content;
+        height: 61.787vw;
         flex-direction: column;
-    }
-    .mobilcol {
-        flex-direction:column;
-        align-items:center;
+        flex-wrap: wrap;
+        font-size: 5.797vw;
         justify-content: space-around;
     }
-    .botoes {
+    .botao_vdd a {
+        line-height: 16.908vw;
+    } 
+    
+    .botaopadrao {
+        margin-top: 0%;
         width: 64.493vw;
         height: 17.391vw;
-        border: 4px dotted red;
-
+       
     }
-    .botoes p {
-        font-size: 5.797vw;
-        line-height: 16.908vw;
+    #imprimir {
+        font-size: 5.497vw;
     }
+    #baixar {
+        font-size: 5.497vw;
+    }
+    .sumirm {
+        display: block;
+        position: absolute;
+        bottom: -40%;
+        right: 0%;
+        z-index: 0;
+    }
+   
 }
