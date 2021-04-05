@@ -10,14 +10,14 @@ Em desenvolvimento
 
 
 
-## Tecnologias 
-HTML5 <br>
-CSS3 <br>
-JAVASCRIPT <br>
-JAVA <br>
-SPRING FRAMEWORK <br>
-THYMELEAF <br>
-HIBERNATE
+### 🛠 Tecnologias
+- HTML5 <br>
+- CSS3 <br>
+- JAVASCRIPT <br>
+- JAVA <br>
+- SPRING FRAMEWORK <br>
+- THYMELEAF <br>
+- HIBERNATE
 
 
 
