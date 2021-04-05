@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/confirmarDoacao.css">
     <title>Confirme sua doação</title>
 
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
     <!-- Icone Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e199f902ef.js" crossorigin="anonymous"></script>
@@ -20,6 +25,7 @@
     </script>
 </head>
 <body>
+    <img src="imgs/envio 2.png" class="absoluto">
     <header>
         <nav >
             <div id="nav-placeholder">
@@ -27,22 +33,24 @@
             </div>
         </nav>
     </header>       
-    <main>
+    <main class="artigo">
         <div>
             <h1 id="titulo">Parabéns</h1>
             <h2>Sua doação será entregue para <em>Maria Carvalho</em></h2> <!--será necessário implementar script para atualizar o nome do recebedor dinamicamente-->
         </div>
         <div id="conteudo">
             <h3>Maria Carvalho</h3>
-            <h4>Escola Azul, R. Rio de Janeiro, 123</h4>
+            <h4>Escola Aazul, R. Rio de Janeiro, 123</h4>
             <h4>Cabo Frio, RJ CEP 11056-090</h4>
         </div>
-        <nav>
-            <div>
+        
+            <div class="botoes flex-container espacoentre">
                 <button id="end">Baixar Endereço</button>
                 <button id="impEt">Imprimir Etiqueta</button>
             </div>
-        </nav>
+            
+                
+            
     </main>
 </body>
 </html>
