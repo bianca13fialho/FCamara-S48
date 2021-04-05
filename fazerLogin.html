@@ -6,69 +6,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/fazerLogin.css">
     <title>Projeto FCamara Squad48</title>
-
-    <!--<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/lightslider.min.css">-->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
+
     <!-- Icone Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e199f902ef.js" crossorigin="anonymous"></script>
+    <!--Importação de Menu Responsivo-->
+    <link rel="stylesheet" href="css/menunavegacao.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#nav-placeholder").load("menunavegacao.html");
+        });
+    </script>
 </head>
 
 <body>
-    <header>
-        <div class="home1">
-            <nav>
-                <div class="vercaomobil">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        <i class="fas fa-bars"></i>
-                    </label>
-                    <img class="mobilelogo" src="imgs/logoMobile.png">
-                    <img class="logo" src="imgs/Logo 1.png">
-                    <ul class="vercaomobil">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre Nós</a></li>
-                        <li class="botao"><a href="#">login</a></li>
-                        <li class="botao"><a href="#">cadastro</a></li>
-                    </ul>
-                </div>
-                <div class="flex-container invisivel">
-                    <div class="flex-container">
-                        <div>
-                            <img src="imgs/logo 1.png" id="logoG">
-                        </div>
-                        <div class="home">
-                            <a href="home.html">Home</a>
+    <nav>
+        <div id="nav-placeholder">
+        </div>
+    </nav>
 
-                        </div>
-                    </div>
-                    <div class="sobrenos">
-                        <a href="sobrenós.html">Sobre nós</a>
-                    </div>
-                    <div class="flex-container" class="espacoentre">
-                        <a href="#">
-                            <div id="login">
-                                Login
-                            </div>
-                        </a>
-                        <a href="cadastroUsuario.html">
-                            <div id="registro">
-                                Cadastro
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </nav>
+    <div class="contentLogin">
+        <br><label for="email">E-mail:</label>
+        <br><input type="email" id="email" name="email" required>
+        <img src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_email-512.png" id="email" class="email"><br>
+        <br><label for="pwd">Senha:</label><br>
+        <input type="password" id="pass" name="senha" required>
+        <img src="https://cdn3.iconfinder.com/data/icons/minimalisticons/28/eye1-512.png" id="olho" class="olho"><br>
+    </div>
 
 
-
-    </header>
+    <script>
+        document.getElementById('olho').addEventListener('mousedown', function() {
+            document.getElementById('pass').type = 'text';
+        });
+        document.getElementById('olho').addEventListener('mouseup', function() {
+            document.getElementById('pass').type = 'password';
+        });
+        document.getElementById('olho').addEventListener('mousemove', function() {
+            document.getElementById('pass').type = 'password';
+        });
+    </script>
 
 </body>
 

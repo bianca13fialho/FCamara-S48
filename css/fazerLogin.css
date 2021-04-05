@@ -112,3 +112,39 @@ nav a {
     position: relative;
     bottom: 10px;
 }
+
+.contentLogin img {
+    width: 1500px;
+    height: 840px;
+}
+
+.contentLogin {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+
+.contentLogin label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.contentLogin input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contentLogin img {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -35px;
+    width: 20px;
+    height: 20px;
+}
