@@ -769,13 +769,14 @@ a.active,a:hover {
     }
     ul{
         position: fixed;
-        width: 60%;
+        width: 10%;
         height: 60vh;
         background:#5E68EB;
         top: 80px;
         left: -110%;
         text-align: center;
         transition: all .5s;
+        z-index: 50;
     }
     nav ul li{
         display: block;

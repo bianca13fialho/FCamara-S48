@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/cadastroAluno.css">
     <title>Cadastre Sua Lista</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
     <!-- Icone Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e199f902ef.js" crossorigin="anonymous"></script>
@@ -30,55 +33,91 @@
     </nav>
 
     <div class="content">
-        <img src="imgs/imgCadastroAluno.png">
+        <img src="imgs/imgCadastroAluno.png" class="finvisivel">
 
         <div class="cadastro">
-            <h1>Cadastro de alunos</h1>
+            <h1><a href="home.html"><img src="imgs/arrow_voltar_ios.png" style="width: 5.797vw; height: 5.797vw;" class="sumir"></a>Cadastro de alunos</h1>
 
-            <div class="form-cadastro">
+            <div class="form-cadastro desaparecer" >
                 <div class="row">
                     <div class="nomeAluno">
                         <label for="nomeAluno">Nome do Aluno</label>
-                        <br><input type="text" id="nomeAluno" name="nomeAluno" required>
+                        <br><input type="text" id="nomeAluno" name="nomeAluno" class="formulariobonito" required>
                     </div>
                     <div class="matricula">
                         <label for="matricula">Matrícula</label>
-                        <br><input type="tel" id="matricula" name="matricula" required>
+                        <br><input type="tel" id="matricula" name="matricula" class="formulariobonito" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="telEmergencia">
                         <label for="telEmergencia">Telefone de Emergência</label>
-                        <br><input type="tel" id="telEmergencia" name="telEmergencia" required>
+                        <br><input type="tel" id="telEmergencia" name="telEmergencia" class="formulariobonito" required>
                     </div>
                     <div class="cepEscola">
                         <label for="cepEscola">CEP da Escola</label>
-                        <br><input type="tel" id="cepEscola" name="cepEscola" required>
+                        <br><input type="tel" id="cepEscola" name="cepEscola" class="formulariobonito" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="escola">
                         <label for="Escola">Escola</label>
-                        <br><input type="text" id="Escola" name="Escola" required>
+                        <br><input type="text" id="Escola" name="Escola" class="formulariobonito" required>
                     </div>
                     <div class="estado">
                         <label for="Estado">Estado</label>
-                        <br><input type="text" id="Estado" name="Estado" required>
+                        <br><input type="text" id="Estado" name="Estado" class="formulariobonito" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="cidade">
                         <br><label for="Cidade">Cidade</label>
-                        <br><input type="text" id="Cidade" name="Cidade" required>
+                        <br><input type="text" id="Cidade" name="Cidade" class="formulariobonito" required>
                     </div>
                 </div>
             </div>
+            
+
+            <div class="form-cadastro reaparecer">
+            
+                        <label for="nomeAluno">Nome do Aluno</label>
+                        <br><input type="text" id="nomeAluno" name="nomeAluno" class="formulariobonito" required>
+                    
+                    
+                        <label for="matricula">Matrícula</label>
+                        <br><input type="tel" id="matricula" name="matricula" class="formulariobonito" required>
+                    
+               
+               
+                   
+                        <label for="telEmergencia">Telefone de Emergência</label>
+                        <br><input type="tel" id="telEmergencia" name="telEmergencia" class="formulariobonito" required>
+                    
+                        <label for="cepEscola">CEP da Escola</label>
+                        <br><input type="tel" id="cepEscola" name="cepEscola" class="formulariobonito" required>
+                    
+                
+                        <label for="Escola">Escola</label>
+                        <br><input type="text" id="Escola" name="Escola" class="formulariobonito" required>
+                    
+                        <label for="Estado">Estado</label>
+                        <br><input type="text" id="Estado" name="Estado" class="formulariobonito" required>
+                    
+               
+                        <br><label for="Cidade">Cidade</label>
+                        <br><input type="text" id="Cidade" name="Cidade" class="formulariobonito" required>
+                    
+            </div>
+                <a href="#" id="cadastroMateriais" class="botaopadrao aparecer" style="display: none;">Materiais</a>
+            
         </div>
     </div>
-    <div class="btn">
+    <div class="btn finvisivel">
         <a href="escolhaPerfil.html" id="cadastroAluno" class="botaopadrao">Voltar</a>
         <a href="#" id="cadastroMateriais" class="botaopadrao">Materiais</a>
     </div>
+
+    
 </body>
 
 </html>
